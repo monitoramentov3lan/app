@@ -6,19 +6,12 @@
 <title>Monitoramento — Garagens</title>
 <!-- PWA -->
 <link rel="manifest" href="manifest.json">
-
 <meta name="theme-color" content="#0a0f1c">
-
 <meta name="mobile-web-app-capable" content="yes">
-
 <meta name="apple-mobile-web-app-capable" content="yes">
-
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-
 <meta name="apple-mobile-web-app-title" content="V3LAN">
-
 <link rel="apple-touch-icon" href="assets/icon-192.png">
-
 <link rel="icon" href="assets/favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -267,11 +260,7 @@
       <input type="text" id="filtro-garagem" placeholder="Nome da garagem...">
     </div>
     <button class="btn-primary" onclick="renderTable()">Atualizar</button>
-    <button id="btnInstall" hidden>
-
-      📲 Instalar
-      
-      </button>
+    <button id="btnInstall" hidden>📲 Instalar</button>
     <button class="btn-ghost" id="btn-export-csv" onclick="exportarCSV()">⭳ Exportar CSV</button>
     <div class="controls-spacer"></div>
     <div class="info-note">
@@ -308,7 +297,6 @@
 let GLOBAL_DATA = [];
 const AUTO_REFRESH_MS = 5 * 60 * 1000;
 
-// Data local (NÃO usar toISOString, que é UTC e adianta o dia à noite no Brasil)
 function formatDateISO(d) {
   const yyyy = d.getFullYear();
   const mm = String(d.getMonth() + 1).padStart(2, '0');
@@ -329,7 +317,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   dateInput.max = formatDateISO(today);
   dateInput.min = formatDateISO(minDate);
-  dateInput.value = formatDateISO(today); // painel sempre abre em HOJE
+  dateInput.value = formatDateISO(today);
 
   document.getElementById('filtro-garagem').addEventListener('input', renderTable);
 
@@ -476,10 +464,6 @@ function tempoRelativo(d) {
   return `há ${Math.round(diffH / 24)}d`;
 }
 
-/* ============================================================
-   EXPORTAÇÃO CSV — resumo por garagem + listagem completa de TGs
-   ============================================================ */
-
 function csvEscape(valor) {
   const s = (valor === null || valor === undefined) ? '' : String(valor);
   if (s.includes(';') || s.includes('"') || s.includes('\n')) {
@@ -590,49 +574,33 @@ async function exportarCSV() {
   btn.disabled = false;
   btn.textContent = textoOriginal;
 }
+
 if ('serviceWorker' in navigator) {
-
-window.addEventListener('load', async ()=>{
-
-    try{
-
-        const registration = await navigator.serviceWorker.register("./sw.js");
-
-        console.log("PWA OK", registration);
-
+  window.addEventListener('load', async () => {
+    try {
+      const registration = await navigator.serviceWorker.register("./sw.js");
+      console.log("PWA OK", registration);
+    } catch (e) {
+      console.error(e);
     }
+  });
 
-    catch(e){
+  let deferredPrompt;
+  const btn = document.getElementById("btnInstall");
 
-        console.error(e);
-
-    }
-
-});
-let deferredPrompt;
-
-const btn = document.getElementById("btnInstall");
-
-window.addEventListener("beforeinstallprompt", e=>{
-
+  window.addEventListener("beforeinstallprompt", e => {
     e.preventDefault();
-
     deferredPrompt = e;
-
     btn.hidden = false;
+  });
 
-});
-
-btn.onclick = async ()=>{
-
+  btn.onclick = async () => {
+    if (!deferredPrompt) return;
     deferredPrompt.prompt();
-
     await deferredPrompt.userChoice;
-
+    deferredPrompt = null;
     btn.hidden = true;
-
-};
-
+  };
 }
 </script>
 </body>
