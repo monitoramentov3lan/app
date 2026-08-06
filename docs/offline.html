@@ -585,6 +585,21 @@ async function exportarCSV() {
   btn.disabled = false;
   btn.textContent = textoOriginal;
 }
+if ('serviceWorker' in navigator) {
+
+window.addEventListener('load', () => {
+
+    navigator.serviceWorker.register('./sw.js')
+
+    .then(() => {
+
+        console.log("PWA iniciado.");
+
+    });
+
+});
+
+}
 </script>
 </body>
 </html>
