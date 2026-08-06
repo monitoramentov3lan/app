@@ -1,36 +1,66 @@
-const CACHE = "v3lan-cache-v1";
+const VERSION = "1.0.0";
 
-const urls = [
+const CACHE = "v3lan-" + VERSION;
+
+const FILES = [
+
     "./",
+
     "./index.html",
-    "./garagens.js"
+
+    "./manifest.json"
+
 ];
 
 self.addEventListener("install", event => {
 
     event.waitUntil(
 
-        caches.open(CACHE).then(cache => {
+        caches.open(CACHE)
 
-            return cache.addAll(urls);
-
-        })
+        .then(cache => cache.addAll(FILES))
 
     );
+
+    self.skipWaiting();
+
+});
+
+self.addEventListener("activate", event => {
+
+    event.waitUntil(
+
+        caches.keys()
+
+        .then(keys =>
+
+            Promise.all(
+
+                keys
+
+                .filter(key => key !== CACHE)
+
+                .map(key => caches.delete(key))
+
+            )
+
+        )
+
+    );
+
+    self.clients.claim();
 
 });
 
 self.addEventListener("fetch", event => {
 
+    if (event.request.method !== "GET") return;
+
     event.respondWith(
 
-        caches.match(event.request)
+        fetch(event.request)
 
-        .then(response => {
-
-            return response || fetch(event.request);
-
-        })
+        .catch(() => caches.match(event.request))
 
     );
 
