@@ -1,0 +1,164 @@
+{
+  "garagem": "SPEED",
+  "online": 45,
+  "offline": 0,
+  "last_update": "2026-08-24T11:46:57.965785-03:00",
+  "panel_url": "https://monitoramentov3lan.github.io/speed/COMUNICAÇÕES_SPEED.html",
+  "tgs_history": [
+    {
+      "data": "24/08/2026",
+      "count": 6,
+      "filename": "TGs_SPEED_20260824.txt"
+    },
+    {
+      "data": "23/08/2026",
+      "count": 31,
+      "filename": "TGs_SPEED_20260823.txt"
+    },
+    {
+      "data": "22/08/2026",
+      "count": 65,
+      "filename": "TGs_SPEED_20260822.txt"
+    },
+    {
+      "data": "21/08/2026",
+      "count": 74,
+      "filename": "TGs_SPEED_20260821.txt"
+    },
+    {
+      "data": "20/08/2026",
+      "count": 72,
+      "filename": "TGs_SPEED_20260820.txt"
+    },
+    {
+      "data": "19/08/2026",
+      "count": 81,
+      "filename": "TGs_SPEED_20260819.txt"
+    },
+    {
+      "data": "18/08/2026",
+      "count": 73,
+      "filename": "TGs_SPEED_20260818.txt"
+    },
+    {
+      "data": "17/08/2026",
+      "count": 80,
+      "filename": "TGs_SPEED_20260817.txt"
+    },
+    {
+      "data": "16/08/2026",
+      "count": 46,
+      "filename": "TGs_SPEED_20260816.txt"
+    },
+    {
+      "data": "15/08/2026",
+      "count": 66,
+      "filename": "TGs_SPEED_20260815.txt"
+    },
+    {
+      "data": "14/08/2026",
+      "count": 76,
+      "filename": "TGs_SPEED_20260814.txt"
+    },
+    {
+      "data": "13/08/2026",
+      "count": 84,
+      "filename": "TGs_SPEED_20260813.txt"
+    },
+    {
+      "data": "12/08/2026",
+      "count": 76,
+      "filename": "TGs_SPEED_20260812.txt"
+    },
+    {
+      "data": "11/08/2026",
+      "count": 77,
+      "filename": "TGs_SPEED_20260811.txt"
+    },
+    {
+      "data": "10/08/2026",
+      "count": 80,
+      "filename": "TGs_SPEED_20260810.txt"
+    },
+    {
+      "data": "09/08/2026",
+      "count": 40,
+      "filename": "TGs_SPEED_20260809.txt"
+    },
+    {
+      "data": "08/08/2026",
+      "count": 63,
+      "filename": "TGs_SPEED_20260808.txt"
+    },
+    {
+      "data": "07/08/2026",
+      "count": 81,
+      "filename": "TGs_SPEED_20260807.txt"
+    },
+    {
+      "data": "06/08/2026",
+      "count": 85,
+      "filename": "TGs_SPEED_20260806.txt"
+    },
+    {
+      "data": "05/08/2026",
+      "count": 79,
+      "filename": "TGs_SPEED_20260805.txt"
+    },
+    {
+      "data": "04/08/2026",
+      "count": 74,
+      "filename": "TGs_SPEED_20260804.txt"
+    },
+    {
+      "data": "03/08/2026",
+      "count": 76,
+      "filename": "TGs_SPEED_20260803.txt"
+    },
+    {
+      "data": "02/08/2026",
+      "count": 39,
+      "filename": "TGs_SPEED_20260802.txt"
+    },
+    {
+      "data": "01/08/2026",
+      "count": 64,
+      "filename": "TGs_SPEED_20260801.txt"
+    },
+    {
+      "data": "31/07/2026",
+      "count": 74,
+      "filename": "TGs_SPEED_20260731.txt"
+    },
+    {
+      "data": "30/07/2026",
+      "count": 79,
+      "filename": "TGs_SPEED_20260730.txt"
+    },
+    {
+      "data": "29/07/2026",
+      "count": 78,
+      "filename": "TGs_SPEED_20260729.txt"
+    },
+    {
+      "data": "28/07/2026",
+      "count": 42,
+      "filename": "TGs_SPEED_20260728.txt"
+    },
+    {
+      "data": "27/07/2026",
+      "count": 59,
+      "filename": "TGs_SPEED_20260727.txt"
+    },
+    {
+      "data": "26/07/2026",
+      "count": 39,
+      "filename": "TGs_SPEED_20260726.txt"
+    },
+    {
+      "data": "25/07/2026",
+      "count": 63,
+      "filename": "TGs_SPEED_20260725.txt"
+    }
+  ]
+}
