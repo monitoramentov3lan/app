@@ -1,0 +1,164 @@
+{
+  "garagem": "RATRANS",
+  "online": 75,
+  "offline": 2,
+  "last_update": "2026-08-24T11:31:33.429964-03:00",
+  "panel_url": "https://monitoramentov3lan.github.io/ratrans/COMUNICAÇÕES_RATRANS.html",
+  "tgs_history": [
+    {
+      "data": "24/08/2026",
+      "count": 22,
+      "filename": "TGs_RATRANS_20260824.txt"
+    },
+    {
+      "data": "23/08/2026",
+      "count": 82,
+      "filename": "TGs_RATRANS_20260823.txt"
+    },
+    {
+      "data": "22/08/2026",
+      "count": 114,
+      "filename": "TGs_RATRANS_20260822.txt"
+    },
+    {
+      "data": "21/08/2026",
+      "count": 134,
+      "filename": "TGs_RATRANS_20260821.txt"
+    },
+    {
+      "data": "20/08/2026",
+      "count": 142,
+      "filename": "TGs_RATRANS_20260820.txt"
+    },
+    {
+      "data": "19/08/2026",
+      "count": 126,
+      "filename": "TGs_RATRANS_20260819.txt"
+    },
+    {
+      "data": "18/08/2026",
+      "count": 143,
+      "filename": "TGs_RATRANS_20260818.txt"
+    },
+    {
+      "data": "17/08/2026",
+      "count": 135,
+      "filename": "TGs_RATRANS_20260817.txt"
+    },
+    {
+      "data": "16/08/2026",
+      "count": 91,
+      "filename": "TGs_RATRANS_20260816.txt"
+    },
+    {
+      "data": "15/08/2026",
+      "count": 113,
+      "filename": "TGs_RATRANS_20260815.txt"
+    },
+    {
+      "data": "14/08/2026",
+      "count": 128,
+      "filename": "TGs_RATRANS_20260814.txt"
+    },
+    {
+      "data": "13/08/2026",
+      "count": 132,
+      "filename": "TGs_RATRANS_20260813.txt"
+    },
+    {
+      "data": "12/08/2026",
+      "count": 122,
+      "filename": "TGs_RATRANS_20260812.txt"
+    },
+    {
+      "data": "11/08/2026",
+      "count": 126,
+      "filename": "TGs_RATRANS_20260811.txt"
+    },
+    {
+      "data": "10/08/2026",
+      "count": 143,
+      "filename": "TGs_RATRANS_20260810.txt"
+    },
+    {
+      "data": "09/08/2026",
+      "count": 89,
+      "filename": "TGs_RATRANS_20260809.txt"
+    },
+    {
+      "data": "08/08/2026",
+      "count": 116,
+      "filename": "TGs_RATRANS_20260808.txt"
+    },
+    {
+      "data": "07/08/2026",
+      "count": 138,
+      "filename": "TGs_RATRANS_20260807.txt"
+    },
+    {
+      "data": "06/08/2026",
+      "count": 132,
+      "filename": "TGs_RATRANS_20260806.txt"
+    },
+    {
+      "data": "05/08/2026",
+      "count": 130,
+      "filename": "TGs_RATRANS_20260805.txt"
+    },
+    {
+      "data": "04/08/2026",
+      "count": 125,
+      "filename": "TGs_RATRANS_20260804.txt"
+    },
+    {
+      "data": "03/08/2026",
+      "count": 126,
+      "filename": "TGs_RATRANS_20260803.txt"
+    },
+    {
+      "data": "02/08/2026",
+      "count": 85,
+      "filename": "TGs_RATRANS_20260802.txt"
+    },
+    {
+      "data": "01/08/2026",
+      "count": 106,
+      "filename": "TGs_RATRANS_20260801.txt"
+    },
+    {
+      "data": "31/07/2026",
+      "count": 123,
+      "filename": "TGs_RATRANS_20260731.txt"
+    },
+    {
+      "data": "30/07/2026",
+      "count": 124,
+      "filename": "TGs_RATRANS_20260730.txt"
+    },
+    {
+      "data": "29/07/2026",
+      "count": 126,
+      "filename": "TGs_RATRANS_20260729.txt"
+    },
+    {
+      "data": "28/07/2026",
+      "count": 85,
+      "filename": "TGs_RATRANS_20260728.txt"
+    },
+    {
+      "data": "27/07/2026",
+      "count": 104,
+      "filename": "TGs_RATRANS_20260727.txt"
+    },
+    {
+      "data": "26/07/2026",
+      "count": 90,
+      "filename": "TGs_RATRANS_20260726.txt"
+    },
+    {
+      "data": "25/07/2026",
+      "count": 108,
+      "filename": "TGs_RATRANS_20260725.txt"
+    }
+  ]
+}
