@@ -1,0 +1,164 @@
+{
+  "garagem": "VIPER",
+  "online": 125,
+  "offline": 2,
+  "last_update": "2026-08-24T13:06:41.465141-03:00",
+  "panel_url": "https://monitoramentov3lan.github.io/viper/COMUNICAÇÕES_VIPER.html",
+  "tgs_history": [
+    {
+      "data": "24/08/2026",
+      "count": 12,
+      "filename": "TGs_VIPER_20260824.txt"
+    },
+    {
+      "data": "23/08/2026",
+      "count": 101,
+      "filename": "TGs_VIPER_20260823.txt"
+    },
+    {
+      "data": "22/08/2026",
+      "count": 177,
+      "filename": "TGs_VIPER_20260822.txt"
+    },
+    {
+      "data": "21/08/2026",
+      "count": 201,
+      "filename": "TGs_VIPER_20260821.txt"
+    },
+    {
+      "data": "20/08/2026",
+      "count": 201,
+      "filename": "TGs_VIPER_20260820.txt"
+    },
+    {
+      "data": "19/08/2026",
+      "count": 206,
+      "filename": "TGs_VIPER_20260819.txt"
+    },
+    {
+      "data": "18/08/2026",
+      "count": 198,
+      "filename": "TGs_VIPER_20260818.txt"
+    },
+    {
+      "data": "17/08/2026",
+      "count": 203,
+      "filename": "TGs_VIPER_20260817.txt"
+    },
+    {
+      "data": "16/08/2026",
+      "count": 98,
+      "filename": "TGs_VIPER_20260816.txt"
+    },
+    {
+      "data": "15/08/2026",
+      "count": 151,
+      "filename": "TGs_VIPER_20260815.txt"
+    },
+    {
+      "data": "14/08/2026",
+      "count": 207,
+      "filename": "TGs_VIPER_20260814.txt"
+    },
+    {
+      "data": "13/08/2026",
+      "count": 209,
+      "filename": "TGs_VIPER_20260813.txt"
+    },
+    {
+      "data": "12/08/2026",
+      "count": 221,
+      "filename": "TGs_VIPER_20260812.txt"
+    },
+    {
+      "data": "11/08/2026",
+      "count": 210,
+      "filename": "TGs_VIPER_20260811.txt"
+    },
+    {
+      "data": "10/08/2026",
+      "count": 213,
+      "filename": "TGs_VIPER_20260810.txt"
+    },
+    {
+      "data": "09/08/2026",
+      "count": 104,
+      "filename": "TGs_VIPER_20260809.txt"
+    },
+    {
+      "data": "08/08/2026",
+      "count": 151,
+      "filename": "TGs_VIPER_20260808.txt"
+    },
+    {
+      "data": "07/08/2026",
+      "count": 203,
+      "filename": "TGs_VIPER_20260807.txt"
+    },
+    {
+      "data": "06/08/2026",
+      "count": 201,
+      "filename": "TGs_VIPER_20260806.txt"
+    },
+    {
+      "data": "05/08/2026",
+      "count": 195,
+      "filename": "TGs_VIPER_20260805.txt"
+    },
+    {
+      "data": "04/08/2026",
+      "count": 204,
+      "filename": "TGs_VIPER_20260804.txt"
+    },
+    {
+      "data": "03/08/2026",
+      "count": 204,
+      "filename": "TGs_VIPER_20260803.txt"
+    },
+    {
+      "data": "02/08/2026",
+      "count": 105,
+      "filename": "TGs_VIPER_20260802.txt"
+    },
+    {
+      "data": "01/08/2026",
+      "count": 168,
+      "filename": "TGs_VIPER_20260801.txt"
+    },
+    {
+      "data": "31/07/2026",
+      "count": 197,
+      "filename": "TGs_VIPER_20260731.txt"
+    },
+    {
+      "data": "30/07/2026",
+      "count": 210,
+      "filename": "TGs_VIPER_20260730.txt"
+    },
+    {
+      "data": "29/07/2026",
+      "count": 194,
+      "filename": "TGs_VIPER_20260729.txt"
+    },
+    {
+      "data": "28/07/2026",
+      "count": 113,
+      "filename": "TGs_VIPER_20260728.txt"
+    },
+    {
+      "data": "27/07/2026",
+      "count": 159,
+      "filename": "TGs_VIPER_20260727.txt"
+    },
+    {
+      "data": "26/07/2026",
+      "count": 110,
+      "filename": "TGs_VIPER_20260726.txt"
+    },
+    {
+      "data": "25/07/2026",
+      "count": 163,
+      "filename": "TGs_VIPER_20260725.txt"
+    }
+  ]
+}
