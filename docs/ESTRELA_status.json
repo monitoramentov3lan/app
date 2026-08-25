@@ -1,0 +1,164 @@
+{
+  "garagem": "ESTRELA",
+  "online": 149,
+  "offline": 0,
+  "last_update": "2026-08-25T16:11:02.174481-03:00",
+  "panel_url": "https://monitoramentov3lan.github.io/estrela/COMUNICAÇÕES_ESTRELA.html",
+  "tgs_history": [
+    {
+      "data": "25/08/2026",
+      "count": 54,
+      "filename": "TGs_ESTRELA_20260825.txt"
+    },
+    {
+      "data": "24/08/2026",
+      "count": 251,
+      "filename": "TGs_ESTRELA_20260824.txt"
+    },
+    {
+      "data": "23/08/2026",
+      "count": 111,
+      "filename": "TGs_ESTRELA_20260823.txt"
+    },
+    {
+      "data": "22/08/2026",
+      "count": 157,
+      "filename": "TGs_ESTRELA_20260822.txt"
+    },
+    {
+      "data": "21/08/2026",
+      "count": 249,
+      "filename": "TGs_ESTRELA_20260821.txt"
+    },
+    {
+      "data": "20/08/2026",
+      "count": 246,
+      "filename": "TGs_ESTRELA_20260820.txt"
+    },
+    {
+      "data": "19/08/2026",
+      "count": 246,
+      "filename": "TGs_ESTRELA_20260819.txt"
+    },
+    {
+      "data": "18/08/2026",
+      "count": 253,
+      "filename": "TGs_ESTRELA_20260818.txt"
+    },
+    {
+      "data": "17/08/2026",
+      "count": 242,
+      "filename": "TGs_ESTRELA_20260817.txt"
+    },
+    {
+      "data": "16/08/2026",
+      "count": 108,
+      "filename": "TGs_ESTRELA_20260816.txt"
+    },
+    {
+      "data": "15/08/2026",
+      "count": 157,
+      "filename": "TGs_ESTRELA_20260815.txt"
+    },
+    {
+      "data": "14/08/2026",
+      "count": 242,
+      "filename": "TGs_ESTRELA_20260814.txt"
+    },
+    {
+      "data": "13/08/2026",
+      "count": 240,
+      "filename": "TGs_ESTRELA_20260813.txt"
+    },
+    {
+      "data": "12/08/2026",
+      "count": 251,
+      "filename": "TGs_ESTRELA_20260812.txt"
+    },
+    {
+      "data": "11/08/2026",
+      "count": 241,
+      "filename": "TGs_ESTRELA_20260811.txt"
+    },
+    {
+      "data": "10/08/2026",
+      "count": 230,
+      "filename": "TGs_ESTRELA_20260810.txt"
+    },
+    {
+      "data": "09/08/2026",
+      "count": 109,
+      "filename": "TGs_ESTRELA_20260809.txt"
+    },
+    {
+      "data": "08/08/2026",
+      "count": 154,
+      "filename": "TGs_ESTRELA_20260808.txt"
+    },
+    {
+      "data": "07/08/2026",
+      "count": 246,
+      "filename": "TGs_ESTRELA_20260807.txt"
+    },
+    {
+      "data": "06/08/2026",
+      "count": 255,
+      "filename": "TGs_ESTRELA_20260806.txt"
+    },
+    {
+      "data": "05/08/2026",
+      "count": 262,
+      "filename": "TGs_ESTRELA_20260805.txt"
+    },
+    {
+      "data": "04/08/2026",
+      "count": 249,
+      "filename": "TGs_ESTRELA_20260804.txt"
+    },
+    {
+      "data": "03/08/2026",
+      "count": 240,
+      "filename": "TGs_ESTRELA_20260803.txt"
+    },
+    {
+      "data": "02/08/2026",
+      "count": 111,
+      "filename": "TGs_ESTRELA_20260802.txt"
+    },
+    {
+      "data": "01/08/2026",
+      "count": 152,
+      "filename": "TGs_ESTRELA_20260801.txt"
+    },
+    {
+      "data": "31/07/2026",
+      "count": 236,
+      "filename": "TGs_ESTRELA_20260731.txt"
+    },
+    {
+      "data": "30/07/2026",
+      "count": 231,
+      "filename": "TGs_ESTRELA_20260730.txt"
+    },
+    {
+      "data": "29/07/2026",
+      "count": 224,
+      "filename": "TGs_ESTRELA_20260729.txt"
+    },
+    {
+      "data": "28/07/2026",
+      "count": 116,
+      "filename": "TGs_ESTRELA_20260728.txt"
+    },
+    {
+      "data": "27/07/2026",
+      "count": 196,
+      "filename": "TGs_ESTRELA_20260727.txt"
+    },
+    {
+      "data": "26/07/2026",
+      "count": 109,
+      "filename": "TGs_ESTRELA_20260726.txt"
+    }
+  ]
+}
