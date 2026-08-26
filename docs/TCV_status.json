@@ -2,12 +2,12 @@
   "garagem": "TCV",
   "online": 3,
   "offline": 0,
-  "last_update": "2026-08-26T19:26:56.316719-03:00",
+  "last_update": "2026-08-26T20:26:56.325314-03:00",
   "panel_url": "https://monitoramentov3lan.github.io/tcv/COMUNICAÇÕES_TCV.html",
   "tgs_history": [
     {
       "data": "26/08/2026",
-      "count": 3,
+      "count": 4,
       "filename": "TGs_TCV_20260826.txt"
     },
     {
