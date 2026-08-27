@@ -1,10 +1,15 @@
 {
   "garagem": "TSC",
-  "online": 2,
-  "offline": 0,
-  "last_update": "2026-08-26T23:19:33.867363-03:00",
+  "online": 0,
+  "offline": 2,
+  "last_update": "2026-08-27T00:19:33.860357-03:00",
   "panel_url": "https://monitoramentov3lan.github.io/tsc/COMUNICAÇÕES_TSC.html",
   "tgs_history": [
+    {
+      "data": "27/08/2026",
+      "count": 0,
+      "filename": "N/A"
+    },
     {
       "data": "26/08/2026",
       "count": 18,
@@ -154,11 +159,6 @@
       "data": "28/07/2026",
       "count": 5,
       "filename": "TGs_TSC_20260728.txt"
-    },
-    {
-      "data": "27/07/2026",
-      "count": 4,
-      "filename": "TGs_TSC_20260727.txt"
     }
   ]
 }
