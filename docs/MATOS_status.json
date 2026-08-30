@@ -1,10 +1,15 @@
 {
   "garagem": "MATOS",
-  "online": 38,
-  "offline": 4,
-  "last_update": "2026-08-29T22:23:45.634246-03:00",
+  "online": 29,
+  "offline": 9,
+  "last_update": "2026-08-30T00:23:45.671906-03:00",
   "panel_url": "https://monitoramentov3lan.github.io/matos/COMUNICAÇÕES_MATOS.html",
   "tgs_history": [
+    {
+      "data": "29/08/2026",
+      "count": 41,
+      "filename": "TGs_20260829.txt"
+    },
     {
       "data": "28/08/2026",
       "count": 76,
@@ -149,11 +154,6 @@
       "data": "31/07/2026",
       "count": 86,
       "filename": "TGs_MATOS_20260731.txt"
-    },
-    {
-      "data": "30/07/2026",
-      "count": 83,
-      "filename": "TGs_MATOS_20260730.txt"
     }
   ]
 }
