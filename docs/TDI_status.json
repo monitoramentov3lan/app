@@ -2,12 +2,12 @@
   "garagem": "TDI",
   "online": 1,
   "offline": 0,
-  "last_update": "2026-09-01T21:28:56.195015-03:00",
+  "last_update": "2026-09-01T22:29:06.825961-03:00",
   "panel_url": "https://monitoramentov3lan.github.io/tdi/COMUNICAÇÕES_TDI.html",
   "tgs_history": [
     {
       "data": "01/09/2026",
-      "count": 2,
+      "count": 3,
       "filename": "TGs_TDI_20260901.txt"
     },
     {
