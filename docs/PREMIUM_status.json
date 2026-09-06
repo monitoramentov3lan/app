@@ -1,13 +1,18 @@
 {
   "garagem": "PREMIUM",
-  "online": 55,
-  "offline": 0,
-  "last_update": "2026-09-05T23:44:53.681475-03:00",
+  "online": 53,
+  "offline": 5,
+  "last_update": "2026-09-06T00:44:53.672745-03:00",
   "panel_url": "https://monitoramentov3lan.github.io/premium/COMUNICAÇÕES_PREMIUM.html",
   "tgs_history": [
     {
+      "data": "06/09/2026",
+      "count": 0,
+      "filename": "N/A"
+    },
+    {
       "data": "05/09/2026",
-      "count": 81,
+      "count": 82,
       "filename": "TGs_PREMIUM_20260905.txt"
     },
     {
@@ -154,11 +159,6 @@
       "data": "07/08/2026",
       "count": 108,
       "filename": "TGs_PREMIUM_20260807.txt"
-    },
-    {
-      "data": "06/08/2026",
-      "count": 109,
-      "filename": "TGs_PREMIUM_20260806.txt"
     }
   ]
 }
