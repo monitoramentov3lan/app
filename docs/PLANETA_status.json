@@ -1,8 +1,8 @@
 {
   "garagem": "PLANETA",
-  "online": 0,
-  "offline": 5,
-  "last_update": "2026-09-07T00:09:40.050602-03:00",
+  "online": 5,
+  "offline": 0,
+  "last_update": "2026-09-07T01:09:40.046537-03:00",
   "panel_url": "https://monitoramentov3lan.github.io/planeta/COMUNICAÇÕES_PLANETA.html",
   "tgs_history": [
     {
