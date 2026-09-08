@@ -2,13 +2,13 @@
   "garagem": "TSC",
   "online": 2,
   "offline": 0,
-  "last_update": "2026-09-08T15:19:33.871137-03:00",
+  "last_update": "2026-09-08T16:19:33.871526-03:00",
   "panel_url": "https://monitoramentov3lan.github.io/tsc/COMUNICAÇÕES_TSC.html",
   "tgs_history": [
     {
       "data": "08/09/2026",
-      "count": 0,
-      "filename": "N/A"
+      "count": 2,
+      "filename": "TGs_TSC_20260908.txt"
     },
     {
       "data": "07/09/2026",
