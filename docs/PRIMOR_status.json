@@ -1,18 +1,18 @@
 {
   "garagem": "PRIMOR",
   "online": 143,
-  "offline": 19,
-  "last_update": "2026-09-14T01:18:50.908581-03:00",
+  "offline": 18,
+  "last_update": "2026-09-14T02:18:50.902957-03:00",
   "panel_url": "https://monitoramentov3lan.github.io/primor/COMUNICAÇÕES_PRIMOR.html",
   "tgs_history": [
     {
       "data": "14/09/2026",
-      "count": 1,
+      "count": 2,
       "filename": "TGs_PRIMOR_20260914.txt"
     },
     {
       "data": "13/09/2026",
-      "count": 103,
+      "count": 105,
       "filename": "TGs_PRIMOR_20260913.txt"
     },
     {
