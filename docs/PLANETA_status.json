@@ -2,12 +2,12 @@
   "garagem": "PLANETA",
   "online": 5,
   "offline": 0,
-  "last_update": "2026-09-14T20:40:12.840898-03:00",
+  "last_update": "2026-09-14T21:40:12.841518-03:00",
   "panel_url": "https://monitoramentov3lan.github.io/planeta/COMUNICAÇÕES_PLANETA.html",
   "tgs_history": [
     {
       "data": "14/09/2026",
-      "count": 5,
+      "count": 8,
       "filename": "TGs_PLANETA_20260914.txt"
     },
     {
