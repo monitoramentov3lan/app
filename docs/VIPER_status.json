@@ -2,12 +2,12 @@
   "garagem": "VIPER",
   "online": 127,
   "offline": 3,
-  "last_update": "2026-09-17T11:22:34.163089-03:00",
+  "last_update": "2026-09-17T12:22:34.159604-03:00",
   "panel_url": "https://monitoramentov3lan.github.io/viper/COMUNICAÇÕES_VIPER.html",
   "tgs_history": [
     {
       "data": "17/09/2026",
-      "count": 13,
+      "count": 15,
       "filename": "TGs_VIPER_20260917.txt"
     },
     {
