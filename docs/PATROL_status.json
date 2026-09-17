@@ -1,10 +1,15 @@
 {
   "garagem": "PATROL",
-  "online": 11,
-  "offline": 0,
-  "last_update": "2026-09-16T23:15:31.976903-03:00",
+  "online": 6,
+  "offline": 5,
+  "last_update": "2026-09-17T00:15:31.977969-03:00",
   "panel_url": "https://monitoramentov3lan.github.io/patrol/COMUNICAÇÕES_PATROL.html",
   "tgs_history": [
+    {
+      "data": "17/09/2026",
+      "count": 0,
+      "filename": "N/A"
+    },
     {
       "data": "16/09/2026",
       "count": 13,
@@ -154,11 +159,6 @@
       "data": "18/08/2026",
       "count": 12,
       "filename": "TGs_PATROL_20260818.txt"
-    },
-    {
-      "data": "17/08/2026",
-      "count": 12,
-      "filename": "TGs_PATROL_20260817.txt"
     }
   ]
 }
