@@ -1,18 +1,18 @@
 {
   "garagem": "TAGUATUR",
-  "online": 24,
-  "offline": 30,
-  "last_update": "2026-09-18T00:18:54.760519-03:00",
+  "online": 53,
+  "offline": 2,
+  "last_update": "2026-09-18T01:18:54.771530-03:00",
   "panel_url": "https://monitoramentov3lan.github.io/taguatur/COMUNICAÇÕES_TAGUATUR.html",
   "tgs_history": [
     {
       "data": "18/09/2026",
-      "count": 0,
-      "filename": "N/A"
+      "count": 6,
+      "filename": "TGs_TAGUATUR_20260918.txt"
     },
     {
       "data": "17/09/2026",
-      "count": 90,
+      "count": 95,
       "filename": "TGs_TAGUATUR_20260917.txt"
     },
     {
