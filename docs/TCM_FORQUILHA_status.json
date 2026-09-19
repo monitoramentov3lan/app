@@ -2,12 +2,12 @@
   "garagem": "TCM_FORQUILHA",
   "online": 119,
   "offline": 21,
-  "last_update": "2026-09-19T18:09:19.301697-03:00",
+  "last_update": "2026-09-19T19:09:19.312961-03:00",
   "panel_url": "https://monitoramentov3lan.github.io/tcm-forquilha/COMUNICAÇÕES_TCM_FORQUILHA.html",
   "tgs_history": [
     {
       "data": "19/09/2026",
-      "count": 46,
+      "count": 54,
       "filename": "TGs_TCM_FORQUILHA_20260919.txt"
     },
     {
