@@ -1,10 +1,15 @@
 {
   "garagem": "TPG",
-  "online": 2,
-  "offline": 0,
-  "last_update": "2026-09-19T23:56:05.014501-03:00",
+  "online": 0,
+  "offline": 2,
+  "last_update": "2026-09-20T00:56:15.733583-03:00",
   "panel_url": "https://monitoramentov3lan.github.io/tpg/COMUNICAÇÕES_TPG.html",
   "tgs_history": [
+    {
+      "data": "20/09/2026",
+      "count": 0,
+      "filename": "N/A"
+    },
     {
       "data": "19/09/2026",
       "count": 4,
@@ -154,11 +159,6 @@
       "data": "21/08/2026",
       "count": 5,
       "filename": "TGs_TPG_20260821.txt"
-    },
-    {
-      "data": "20/08/2026",
-      "count": 5,
-      "filename": "TGs_TPG_20260820.txt"
     }
   ]
 }
