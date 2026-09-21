@@ -1,19 +1,19 @@
 {
   "garagem": "UNIAO",
-  "online": 2,
-  "offline": 1,
-  "last_update": "2026-09-21T18:58:23.529041-03:00",
+  "online": 3,
+  "offline": 0,
+  "last_update": "2026-09-21T19:58:23.531923-03:00",
   "panel_url": "https://monitoramentov3lan.github.io/uniao/COMUNICAÇÕES_UNIAO.html",
   "tgs_history": [
     {
       "data": "21/09/2026",
-      "count": 1,
+      "count": 2,
       "filename": "TGs_UNIAO_20260921.txt"
     },
     {
       "data": "20/09/2026",
-      "count": 0,
-      "filename": "N/A"
+      "count": 1,
+      "filename": "TGs_UNIAO_20260920.txt"
     },
     {
       "data": "19/09/2026",
