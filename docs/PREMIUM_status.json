@@ -2,12 +2,12 @@
   "garagem": "PREMIUM",
   "online": 61,
   "offline": 0,
-  "last_update": "2026-09-23T13:44:53.672892-03:00",
+  "last_update": "2026-09-23T14:44:53.685434-03:00",
   "panel_url": "https://monitoramentov3lan.github.io/premium/COMUNICAÇÕES_PREMIUM.html",
   "tgs_history": [
     {
       "data": "23/09/2026",
-      "count": 2,
+      "count": 3,
       "filename": "TGs_PREMIUM_20260923.txt"
     },
     {
