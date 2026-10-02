@@ -1,13 +1,13 @@
 {
   "garagem": "SPEED",
-  "online": 43,
+  "online": 44,
   "offline": 2,
-  "last_update": "2026-10-01T20:19:11.066572-03:00",
+  "last_update": "2026-10-01T21:19:11.065382-03:00",
   "panel_url": "ERRO_PUBLICACAO",
   "tgs_history": [
     {
       "data": "01/10/2026",
-      "count": 21,
+      "count": 27,
       "filename": "TGs_SPEED_20261001.txt"
     },
     {
