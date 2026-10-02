@@ -1,13 +1,18 @@
 {
   "garagem": "VIPER",
-  "online": 127,
-  "offline": 1,
-  "last_update": "2026-10-01T23:49:59.723204-03:00",
+  "online": 125,
+  "offline": 6,
+  "last_update": "2026-10-02T00:49:59.718434-03:00",
   "panel_url": "ERRO_PUBLICACAO",
   "tgs_history": [
     {
+      "data": "02/10/2026",
+      "count": 8,
+      "filename": "TGs_VIPER_20261002.txt"
+    },
+    {
       "data": "01/10/2026",
-      "count": 200,
+      "count": 210,
       "filename": "TGs_VIPER_20261001.txt"
     },
     {
@@ -154,11 +159,6 @@
       "data": "02/09/2026",
       "count": 216,
       "filename": "TGs_VIPER_20260902.txt"
-    },
-    {
-      "data": "01/09/2026",
-      "count": 212,
-      "filename": "TGs_VIPER_20260901.txt"
     }
   ]
 }
