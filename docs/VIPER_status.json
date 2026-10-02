@@ -2,12 +2,12 @@
   "garagem": "VIPER",
   "online": 129,
   "offline": 1,
-  "last_update": "2026-10-01T21:49:59.720276-03:00",
+  "last_update": "2026-10-01T22:49:59.724929-03:00",
   "panel_url": "ERRO_PUBLICACAO",
   "tgs_history": [
     {
       "data": "01/10/2026",
-      "count": 139,
+      "count": 168,
       "filename": "TGs_VIPER_20261001.txt"
     },
     {
