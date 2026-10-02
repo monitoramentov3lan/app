@@ -1,13 +1,13 @@
 {
   "garagem": "PRIMOR",
-  "online": 154,
+  "online": 153,
   "offline": 7,
-  "last_update": "2026-10-01T21:34:37.306125-03:00",
+  "last_update": "2026-10-01T22:34:53.068205-03:00",
   "panel_url": "ERRO_PUBLICACAO",
   "tgs_history": [
     {
       "data": "01/10/2026",
-      "count": 139,
+      "count": 176,
       "filename": "TGs_PRIMOR_20261001.txt"
     },
     {
