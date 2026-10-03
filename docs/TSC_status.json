@@ -2,9 +2,29 @@
   "garagem": "TSC",
   "online": 2,
   "offline": 0,
-  "last_update": "2026-09-25T19:19:33.857025-03:00",
+  "last_update": "2026-10-03T08:06:34.171452-03:00",
   "panel_url": "https://monitoramentov3lan.github.io/tsc/COMUNICAÇÕES_TSC.html",
   "tgs_history": [
+    {
+      "data": "03/10/2026",
+      "count": 0,
+      "filename": "N/A"
+    },
+    {
+      "data": "02/10/2026",
+      "count": 5,
+      "filename": "TGs_TSC_20261002.txt"
+    },
+    {
+      "data": "01/10/2026",
+      "count": 3,
+      "filename": "TGs_TSC_20261001.txt"
+    },
+    {
+      "data": "30/09/2026",
+      "count": 5,
+      "filename": "TGs_TSC_20260930.txt"
+    },
     {
       "data": "25/09/2026",
       "count": 2,
@@ -119,46 +139,6 @@
       "data": "03/09/2026",
       "count": 4,
       "filename": "TGs_TSC_20260903.txt"
-    },
-    {
-      "data": "02/09/2026",
-      "count": 4,
-      "filename": "TGs_TSC_20260902.txt"
-    },
-    {
-      "data": "01/09/2026",
-      "count": 5,
-      "filename": "TGs_TSC_20260901.txt"
-    },
-    {
-      "data": "31/08/2026",
-      "count": 5,
-      "filename": "TGs_TSC_20260831.txt"
-    },
-    {
-      "data": "30/08/2026",
-      "count": 2,
-      "filename": "TGs_TSC_20260830.txt"
-    },
-    {
-      "data": "29/08/2026",
-      "count": 3,
-      "filename": "TGs_TSC_20260829.txt"
-    },
-    {
-      "data": "28/08/2026",
-      "count": 6,
-      "filename": "TGs_TSC_20260828.txt"
-    },
-    {
-      "data": "27/08/2026",
-      "count": 5,
-      "filename": "TGs_TSC_20260827.txt"
-    },
-    {
-      "data": "26/08/2026",
-      "count": 18,
-      "filename": "TGs_TSC_20260826.txt"
     }
   ]
 }
