@@ -2,9 +2,34 @@
   "garagem": "TCV",
   "online": 3,
   "offline": 0,
-  "last_update": "2026-09-23T02:27:36.969389-03:00",
+  "last_update": "2026-10-03T08:03:04.361947-03:00",
   "panel_url": "https://monitoramentov3lan.github.io/tcv/COMUNICAÇÕES_TCV.html",
   "tgs_history": [
+    {
+      "data": "03/10/2026",
+      "count": 0,
+      "filename": "N/A"
+    },
+    {
+      "data": "02/10/2026",
+      "count": 6,
+      "filename": "TGs_TCV_20261002.txt"
+    },
+    {
+      "data": "01/10/2026",
+      "count": 7,
+      "filename": "TGs_TCV_20261001.txt"
+    },
+    {
+      "data": "30/09/2026",
+      "count": 6,
+      "filename": "TGs_TCV_20260930.txt"
+    },
+    {
+      "data": "29/09/2026",
+      "count": 6,
+      "filename": "TGs_TCV_20260929.txt"
+    },
     {
       "data": "23/09/2026",
       "count": 0,
@@ -109,56 +134,6 @@
       "data": "03/09/2026",
       "count": 6,
       "filename": "TGs_TCV_20260903.txt"
-    },
-    {
-      "data": "02/09/2026",
-      "count": 6,
-      "filename": "TGs_TCV_20260902.txt"
-    },
-    {
-      "data": "01/09/2026",
-      "count": 6,
-      "filename": "TGs_TCV_20260901.txt"
-    },
-    {
-      "data": "31/08/2026",
-      "count": 6,
-      "filename": "TGs_TCV_20260831.txt"
-    },
-    {
-      "data": "30/08/2026",
-      "count": 4,
-      "filename": "TGs_TCV_20260830.txt"
-    },
-    {
-      "data": "29/08/2026",
-      "count": 6,
-      "filename": "TGs_TCV_20260829.txt"
-    },
-    {
-      "data": "28/08/2026",
-      "count": 6,
-      "filename": "TGs_TCV_20260828.txt"
-    },
-    {
-      "data": "27/08/2026",
-      "count": 6,
-      "filename": "TGs_TCV_20260827.txt"
-    },
-    {
-      "data": "26/08/2026",
-      "count": 6,
-      "filename": "TGs_TCV_20260826.txt"
-    },
-    {
-      "data": "25/08/2026",
-      "count": 6,
-      "filename": "TGs_TCV_20260825.txt"
-    },
-    {
-      "data": "24/08/2026",
-      "count": 6,
-      "filename": "TGs_TCV_20260824.txt"
     }
   ]
 }
