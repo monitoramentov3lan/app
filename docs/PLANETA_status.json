@@ -2,9 +2,14 @@
   "garagem": "PLANETA",
   "online": 5,
   "offline": 0,
-  "last_update": "2026-10-04T23:31:32.498030-03:00",
+  "last_update": "2026-10-05T00:31:32.489125-03:00",
   "panel_url": "https://monitoramentov3lan.github.io/planeta/COMUNICAÇÕES_PLANETA.html",
   "tgs_history": [
+    {
+      "data": "05/10/2026",
+      "count": 0,
+      "filename": "N/A"
+    },
     {
       "data": "04/10/2026",
       "count": 5,
@@ -144,11 +149,6 @@
       "data": "05/09/2026",
       "count": 3,
       "filename": "TGs_PLANETA_20260905.txt"
-    },
-    {
-      "data": "04/09/2026",
-      "count": 6,
-      "filename": "TGs_PLANETA_20260904.txt"
     }
   ]
 }
