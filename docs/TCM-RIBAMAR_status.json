@@ -2,12 +2,12 @@
   "garagem": "TCM-RIBAMAR",
   "online": 35,
   "offline": 4,
-  "last_update": "2026-10-06T06:05:36.667168-03:00",
+  "last_update": "2026-10-06T07:06:14.417888-03:00",
   "panel_url": "https://monitoramentov3lan.github.io/tcm-ribamar/COMUNICAÇÕES_TCM-RIBAMAR.html",
   "tgs_history": [
     {
       "data": "06/10/2026",
-      "count": 2,
+      "count": 3,
       "filename": "TGs_TCM-RIBAMAR_20261006.txt"
     },
     {
