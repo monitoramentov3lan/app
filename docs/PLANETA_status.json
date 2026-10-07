@@ -2,9 +2,14 @@
   "garagem": "PLANETA",
   "online": 5,
   "offline": 0,
-  "last_update": "2026-10-06T23:31:32.493655-03:00",
-  "panel_url": "ERRO_PUBLICACAO",
+  "last_update": "2026-10-07T00:31:32.490696-03:00",
+  "panel_url": "https://monitoramentov3lan.github.io/planeta/COMUNICAÇÕES_PLANETA.html",
   "tgs_history": [
+    {
+      "data": "07/10/2026",
+      "count": 0,
+      "filename": "N/A"
+    },
     {
       "data": "06/10/2026",
       "count": 6,
@@ -144,11 +149,6 @@
       "data": "07/09/2026",
       "count": 3,
       "filename": "TGs_PLANETA_20260907.txt"
-    },
-    {
-      "data": "06/09/2026",
-      "count": 3,
-      "filename": "TGs_PLANETA_20260906.txt"
     }
   ]
 }
