@@ -1,13 +1,13 @@
 {
   "garagem": "ZURIQUE",
-  "online": 12,
-  "offline": 1,
-  "last_update": "2026-10-12T20:18:09.623519-03:00",
+  "online": 13,
+  "offline": 0,
+  "last_update": "2026-10-12T21:18:09.621419-03:00",
   "panel_url": "https://monitoramentov3lan.github.io/zurique/COMUNICAÇÕES_ZURIQUE.html",
   "tgs_history": [
     {
       "data": "12/10/2026",
-      "count": 3,
+      "count": 7,
       "filename": "TGs_ZURIQUE_20261012.txt"
     },
     {
