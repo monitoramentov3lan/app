@@ -1,13 +1,18 @@
 {
   "garagem": "INOVARE",
-  "online": 45,
-  "offline": 1,
-  "last_update": "2026-10-13T23:11:22.921517-03:00",
+  "online": 21,
+  "offline": 26,
+  "last_update": "2026-10-14T00:11:22.920197-03:00",
   "panel_url": "https://monitoramentov3lan.github.io/inovare/COMUNICAÇÕES_INOVARE.html",
   "tgs_history": [
     {
+      "data": "14/10/2026",
+      "count": 1,
+      "filename": "TGs_INOVARE_20261014.txt"
+    },
+    {
       "data": "13/10/2026",
-      "count": 69,
+      "count": 76,
       "filename": "TGs_INOVARE_20261013.txt"
     },
     {
@@ -154,11 +159,6 @@
       "data": "14/09/2026",
       "count": 82,
       "filename": "TGs_INOVARE_20260914.txt"
-    },
-    {
-      "data": "13/09/2026",
-      "count": 50,
-      "filename": "TGs_INOVARE_20260913.txt"
     }
   ]
 }
