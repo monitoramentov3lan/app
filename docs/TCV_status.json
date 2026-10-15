@@ -1,10 +1,15 @@
 {
   "garagem": "TCV",
-  "online": 3,
-  "offline": 0,
-  "last_update": "2026-10-14T23:28:45.775932-03:00",
+  "online": 2,
+  "offline": 1,
+  "last_update": "2026-10-15T00:28:45.771556-03:00",
   "panel_url": "https://monitoramentov3lan.github.io/tcv/COMUNICAÇÕES_TCV.html",
   "tgs_history": [
+    {
+      "data": "15/10/2026",
+      "count": 0,
+      "filename": "N/A"
+    },
     {
       "data": "14/10/2026",
       "count": 5,
@@ -129,11 +134,6 @@
       "data": "15/09/2026",
       "count": 6,
       "filename": "TGs_TCV_20260915.txt"
-    },
-    {
-      "data": "14/09/2026",
-      "count": 6,
-      "filename": "TGs_TCV_20260914.txt"
     }
   ]
 }
