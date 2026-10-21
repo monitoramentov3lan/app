@@ -2,7 +2,7 @@
   "garagem": "TCC",
   "online": 2,
   "offline": 0,
-  "last_update": "2026-10-21T07:59:57.340713-03:00",
+  "last_update": "2026-10-21T08:29:57.673200-03:00",
   "panel_url": "https://monitoramentov3lan.github.io/tcc/COMUNICAÇÕES_TCC.html",
   "tgs_history": [
     {
@@ -166,7 +166,7 @@
       "nome": "antena1",
       "ip": "172.54.203.101",
       "status": "online",
-      "ultimo_ping": "21/10/2026 07:59:54",
+      "ultimo_ping": "21/10/2026 08:29:52",
       "ultima_alteracao": "20/10/2026 12:29:44",
       "detalhes": "HTTP 200 OK"
     }
