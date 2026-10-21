@@ -1,13 +1,13 @@
 {
   "garagem": "MATOS",
-  "online": 42,
+  "online": 41,
   "offline": 1,
-  "last_update": "2026-10-21T20:19:32.120753-03:00",
+  "last_update": "2026-10-21T20:49:32.111067-03:00",
   "panel_url": "https://monitoramentov3lan.github.io/matos/COMUNICAÇÕES_MATOS.html",
   "tgs_history": [
     {
       "data": "21/10/2026",
-      "count": 14,
+      "count": 20,
       "filename": "TGs_MATOS_20261021.txt"
     },
     {
@@ -41,7 +41,7 @@
       "nome": "antena1",
       "ip": "172.54.136.101",
       "status": "offline",
-      "ultimo_ping": "21/10/2026 20:19:21",
+      "ultimo_ping": "21/10/2026 20:49:24",
       "ultima_alteracao": "21/10/2026 16:49:37",
       "detalhes": "Inacessível: HTTPConnectionPool(host='172.54.136.101', port=80): Read timed out. (read timeou"
     },
@@ -49,7 +49,7 @@
       "nome": "antena2",
       "ip": "172.54.136.102",
       "status": "online",
-      "ultimo_ping": "21/10/2026 20:19:30",
+      "ultimo_ping": "21/10/2026 20:49:30",
       "ultima_alteracao": "21/10/2026 16:49:32",
       "detalhes": "HTTP 200 OK"
     }
