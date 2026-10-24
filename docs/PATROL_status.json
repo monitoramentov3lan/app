@@ -2,12 +2,12 @@
   "garagem": "PATROL",
   "online": 11,
   "offline": 0,
-  "last_update": "2026-10-24T18:10:49.991291-03:00",
+  "last_update": "2026-10-24T19:10:49.985711-03:00",
   "panel_url": "https://monitoramentov3lan.github.io/patrol/COMUNICAÇÕES_PATROL.html",
   "tgs_history": [
     {
       "data": "24/10/2026",
-      "count": 10,
+      "count": 12,
       "filename": "TGs_PATROL_20261024.txt"
     },
     {
