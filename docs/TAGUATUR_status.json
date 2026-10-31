@@ -2,12 +2,12 @@
   "garagem": "TAGUATUR",
   "online": 51,
   "offline": 2,
-  "last_update": "2026-10-31T05:18:54.752519-03:00",
+  "last_update": "2026-10-31T06:19:07.067968-03:00",
   "panel_url": "https://monitoramentov3lan.github.io/taguatur/COMUNICAÇÕES_TAGUATUR.html",
   "tgs_history": [
     {
       "data": "31/10/2026",
-      "count": 9,
+      "count": 10,
       "filename": "TGs_TAGUATUR_20261031.txt"
     },
     {
