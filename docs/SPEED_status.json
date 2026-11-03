@@ -1,13 +1,18 @@
 {
   "garagem": "SPEED",
-  "online": 42,
-  "offline": 3,
-  "last_update": "2026-11-02T22:35:27.933533-03:00",
+  "online": 40,
+  "offline": 5,
+  "last_update": "2026-11-03T00:35:27.943894-03:00",
   "panel_url": "https://monitoramentov3lan.github.io/speed/COMUNICAÇÕES_SPEED.html",
   "tgs_history": [
     {
+      "data": "03/11/2026",
+      "count": 0,
+      "filename": "N/A"
+    },
+    {
       "data": "02/11/2026",
-      "count": 31,
+      "count": 34,
       "filename": "TGs_SPEED_20261102.txt"
     },
     {
@@ -154,11 +159,6 @@
       "data": "04/10/2026",
       "count": 76,
       "filename": "TGs_SPEED_20261004.txt"
-    },
-    {
-      "data": "03/10/2026",
-      "count": 55,
-      "filename": "TGs_SPEED_20261003.txt"
     }
   ]
 }
