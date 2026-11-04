@@ -1,13 +1,13 @@
 {
   "garagem": "ESTRELA",
-  "online": 144,
-  "offline": 5,
-  "last_update": "2026-11-04T05:43:44.330726-03:00",
+  "online": 146,
+  "offline": 3,
+  "last_update": "2026-11-04T06:43:44.335874-03:00",
   "panel_url": "https://monitoramentov3lan.github.io/estrela/COMUNICAÇÕES_ESTRELA.html",
   "tgs_history": [
     {
       "data": "04/11/2026",
-      "count": 34,
+      "count": 35,
       "filename": "TGs_ESTRELA_20261104.txt"
     },
     {
