@@ -1,13 +1,13 @@
 {
   "garagem": "TPG",
-  "online": 2,
+  "online": 1,
   "offline": 0,
-  "last_update": "2026-11-03T22:51:56.997283-03:00",
+  "last_update": "2026-11-03T23:51:57.120296-03:00",
   "panel_url": "https://monitoramentov3lan.github.io/tpg/COMUNICAÇÕES_TPG.html",
   "tgs_history": [
     {
       "data": "03/11/2026",
-      "count": 6,
+      "count": 7,
       "filename": "TGs_TPG_20261103.txt"
     },
     {
