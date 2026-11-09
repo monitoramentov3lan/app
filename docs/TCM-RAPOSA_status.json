@@ -2,12 +2,12 @@
   "garagem": "TCM-RAPOSA",
   "online": 28,
   "offline": 4,
-  "last_update": "2026-11-08T20:38:20.983551-03:00",
+  "last_update": "2026-11-08T21:37:19.067632-03:00",
   "panel_url": "https://monitoramentov3lan.github.io/tcm-raposa/COMUNICAÇÕES_TCM-RAPOSA.html",
   "tgs_history": [
     {
       "data": "08/11/2026",
-      "count": 13,
+      "count": 18,
       "filename": "TGs_TCM-RAPOSA_20261108.txt"
     },
     {
