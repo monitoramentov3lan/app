@@ -685,7 +685,7 @@
     justify-content: center;
     padding: 20px;
   }
-  .modal-overlay.open { display: flex; animation: fadeIn 0.25s ease; }
+  .modal-overlay.open, .modal-overlay.active { display: flex !important; animation: fadeIn 0.25s ease; }
   .modal-box {
     background: var(--bg-elevated);
     border: 1px solid var(--border-hover);
@@ -1576,45 +1576,47 @@ function executarEnvioComando() {
     return;
   }
   
-  // Confirmação para ações críticas ou para TODAS as garagens
-  const isPerigoso = COMANDO_SELECIONADO === 'reiniciar_pc';
-  const isTodas = targetId === 'TODAS';
+  // Confirmação de segurança SOMENTE para comando destrutivo (reiniciar_pc)
+  const isPerigoso = (COMANDO_SELECIONADO === 'reiniciar_pc');
   
-  if (isPerigoso || isTodas) {
+  if (isPerigoso) {
     const modal = document.getElementById('modal-confirm-cmd');
     const msg = document.getElementById('confirm-cmd-text');
     const btnConfirm = document.getElementById('btn-confirm-exec');
     
-    if (isPerigoso && isTodas) {
-      msg.innerHTML = `<b>ATENÇÃO MÁXIMA:</b> Você está prestes a reiniciar <b>TODOS OS COMPUTADORES/SERVIDORES</b> de todas as garagens cadastradas!`;
-      btnConfirm.style.background = 'var(--danger)';
-      btnConfirm.style.color = '#fff';
-    } else if (isPerigoso) {
-      msg.innerHTML = `Você está prestes a reiniciar o servidor de <b>${targetName}</b>. O computador será reiniciado em 30 segundos.`;
-      btnConfirm.style.background = 'var(--danger)';
-      btnConfirm.style.color = '#fff';
+    if (targetId === 'TODAS') {
+      msg.innerHTML = `<b>⚠️ ATENÇÃO MÁXIMA:</b> Você está prestes a <b>REINICIAR O COMPUTADOR/SISTEMA OPERACIONAL</b> de <b>TODAS AS GARAGENS</b>!<br><br>Esta operação desliga e reinicia as máquinas físicas em 30 segundos.`;
     } else {
-      msg.innerHTML = `Você está prestes a executar a ação <b>${COMANDO_SELECIONADO}</b> em <b>TODAS AS GARAGENS</b> cadastradas.`;
-      btnConfirm.style.background = 'var(--accent)';
-      btnConfirm.style.color = '#04211d';
+      msg.innerHTML = `Você está prestes a reiniciar fisicamente o servidor de <b>${targetName}</b>.<br><br>O computador será reiniciado em 30 segundos.`;
     }
+    
+    btnConfirm.style.background = 'var(--danger)';
+    btnConfirm.style.color = '#fff';
+    btnConfirm.textContent = 'Confirmar Reinício Físico';
     
     btnConfirm.onclick = () => {
       fecharModalConfirm();
       processarEnvioSupabase(targetId, COMANDO_SELECIONADO, params);
     };
     
-    if (modal) modal.classList.add('active');
+    if (modal) {
+      modal.classList.add('open');
+      modal.classList.add('active');
+    }
     return;
   }
   
+  // Para todos os outros comandos (gerar relatório, reiniciar V3LAN, git pull, etc.), executa diretamente sem travar o operador
   processarEnvioSupabase(targetId, COMANDO_SELECIONADO, params);
 }
 
 function fecharModalConfirm(e) {
   if (e && e.target && !e.target.classList.contains('modal-overlay') && !e.target.classList.contains('modal-close') && e.target.tagName !== 'BUTTON') return;
   const modal = document.getElementById('modal-confirm-cmd');
-  if (modal) modal.classList.remove('active');
+  if (modal) {
+    modal.classList.remove('open');
+    modal.classList.remove('active');
+  }
 }
 
 async function processarEnvioSupabase(targetId, comando, parametros) {
@@ -1658,7 +1660,8 @@ async function processarEnvioSupabase(targetId, comando, parametros) {
     const { data, error } = await sbClient.from('comandos_remotos').insert(rowsToInsert);
     if (error) throw error;
     
-    feedback.innerHTML = `<span style="color:var(--online)">✅ Comando transmitido com sucesso (${rowsToInsert.length} servidor(es))! O robô executará em instantes.</span>`;
+    const plural = rowsToInsert.length > 1 ? `para ${rowsToInsert.length} servidores` : `para ${targetName}`;
+    feedback.innerHTML = `<span style="color:var(--online); font-weight:700;">✅ Disparo em lote transmitido com sucesso (${plural})! Os robôs estão executando.</span>`;
     
     // Atualiza o histórico
     setTimeout(carregarHistoricoComandos, 1000);
