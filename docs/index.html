@@ -16,6 +16,8 @@
 <link rel="icon" href="assets/favicon.png">
 
 <!-- Fonts: SF Pro styled with Inter + Space Grotesk + JetBrains Mono -->
+<!-- Supabase JS Client for Remote Server Commands -->
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -755,6 +757,301 @@
     td.num { text-align: right; }
     .totals-row { display: none; }
   }
+
+  /* ---------- CENTRAL DE COMANDOS REMOTOS (APPLE STYLE) ---------- */
+  .btn-cmd-quick {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    background: rgba(255, 214, 10, 0.1);
+    color: #ffd60a;
+    border: 1px solid rgba(255, 214, 10, 0.25);
+    padding: 5px 10px;
+    border-radius: var(--radius-sm);
+    font-size: 0.78rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  .btn-cmd-quick:hover {
+    background: rgba(255, 214, 10, 0.2);
+    border-color: #ffd60a;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(255, 214, 10, 0.2);
+  }
+
+  .btn-cmd-top {
+    background: linear-gradient(135deg, rgba(255, 214, 10, 0.15), rgba(255, 159, 10, 0.15));
+    border: 1px solid rgba(255, 214, 10, 0.35);
+    color: #ffd60a;
+  }
+  .btn-cmd-top:hover {
+    background: linear-gradient(135deg, rgba(255, 214, 10, 0.25), rgba(255, 159, 10, 0.25));
+    border-color: #ffd60a;
+    color: #fff;
+  }
+
+  .cmd-container {
+    display: grid;
+    grid-template-columns: 1.15fr 0.85fr;
+    gap: 20px;
+    margin-top: 10px;
+  }
+  @media (max-width: 980px) {
+    .cmd-container { grid-template-columns: 1fr; }
+  }
+
+  .cmd-panel {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 24px;
+    backdrop-filter: blur(24px);
+  }
+
+  .cmd-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid var(--border);
+  }
+  .cmd-header h3 {
+    margin: 0;
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .cmd-header p {
+    margin: 4px 0 0 0;
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+  }
+
+  .target-select-wrap {
+    margin-bottom: 20px;
+  }
+  .target-label {
+    display: block;
+    font-size: 0.78rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text-secondary);
+    margin-bottom: 8px;
+  }
+  .target-select {
+    width: 100%;
+    background: var(--panel-header);
+    border: 1px solid var(--border);
+    color: #fff;
+    padding: 10px 14px;
+    border-radius: var(--radius-sm);
+    font-size: 0.92rem;
+    font-family: 'Inter', sans-serif;
+    outline: none;
+    transition: 0.2s;
+  }
+  .target-select:focus {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 2px var(--accent-subtle);
+  }
+
+  .cmd-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+
+  .cmd-card {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    padding: 14px;
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+    position: relative;
+    user-select: none;
+  }
+  .cmd-card:hover {
+    background: rgba(255, 255, 255, 0.06);
+    border-color: var(--border-hover);
+    transform: translateY(-2px);
+  }
+  .cmd-card.selected {
+    background: rgba(41, 212, 194, 0.12);
+    border-color: var(--accent);
+    box-shadow: 0 0 0 1px var(--accent);
+  }
+  .cmd-card.danger.selected {
+    background: rgba(255, 69, 58, 0.14);
+    border-color: var(--danger);
+    box-shadow: 0 0 0 1px var(--danger);
+  }
+
+  .cmd-card-top {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 6px;
+  }
+  .cmd-card-icon {
+    font-size: 1.25rem;
+    flex-shrink: 0;
+  }
+  .cmd-card-title {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #fff;
+  }
+  .cmd-card-desc {
+    font-size: 0.76rem;
+    color: var(--text-secondary);
+    line-height: 1.35;
+  }
+  .cmd-card-badge {
+    font-size: 0.65rem;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 600;
+    margin-left: auto;
+    background: rgba(255, 255, 255, 0.08);
+    color: var(--text-secondary);
+  }
+  .cmd-card.danger .cmd-card-badge {
+    background: rgba(255, 69, 58, 0.15);
+    color: var(--danger);
+  }
+
+  .cmd-params-wrap {
+    background: rgba(0, 0, 0, 0.25);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    padding: 14px;
+    margin-bottom: 20px;
+  }
+  .cmd-params-wrap label {
+    display: block;
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    margin-bottom: 6px;
+  }
+  .cmd-params-input {
+    width: 100%;
+    background: var(--panel-header);
+    border: 1px solid var(--border);
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.88rem;
+    outline: none;
+    box-sizing: border-box;
+  }
+  .cmd-params-input:focus { border-color: var(--accent); }
+
+  .cmd-send-btn {
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 0.95rem;
+    font-weight: 700;
+    border-radius: var(--radius-sm);
+    border: none;
+    background: linear-gradient(135deg, var(--accent), #1cb3a4);
+    color: #04211d;
+    cursor: pointer;
+    transition: 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+  .cmd-send-btn:hover:not(:disabled) {
+    filter: brightness(1.12);
+    transform: translateY(-1px);
+    box-shadow: 0 6px 20px rgba(41, 212, 194, 0.4);
+  }
+  .cmd-send-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+  }
+  .cmd-send-btn.danger-action {
+    background: linear-gradient(135deg, var(--danger), #d32f2f);
+    color: #fff;
+  }
+  .cmd-send-btn.danger-action:hover:not(:disabled) {
+    box-shadow: 0 6px 20px rgba(255, 69, 58, 0.4);
+  }
+
+  /* Histórico de Comandos */
+  .cmd-history-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-height: 520px;
+    overflow-y: auto;
+    padding-right: 4px;
+  }
+  .cmd-history-item {
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    padding: 12px 14px;
+    transition: 0.15s;
+  }
+  .cmd-history-item:hover {
+    background: rgba(255, 255, 255, 0.04);
+    border-color: var(--border-hover);
+  }
+  .cmd-hist-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6px;
+  }
+  .cmd-hist-target {
+    font-weight: 700;
+    font-size: 0.85rem;
+    color: #fff;
+  }
+  .cmd-hist-badge {
+    font-size: 0.7rem;
+    font-weight: 700;
+    padding: 3px 8px;
+    border-radius: 999px;
+    font-family: 'JetBrains Mono', monospace;
+  }
+  .badge-pending {
+    background: rgba(255, 214, 10, 0.15);
+    color: #ffd60a;
+    border: 1px solid rgba(255, 214, 10, 0.3);
+  }
+  .badge-done {
+    background: var(--online-subtle);
+    color: var(--online);
+    border: 1px solid rgba(48, 209, 88, 0.3);
+  }
+  .cmd-hist-body {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    display: flex;
+    justify-content: space-between;
+    font-family: 'JetBrains Mono', monospace;
+  }
+  .cmd-hist-time {
+    color: var(--text-muted);
+    font-size: 0.72rem;
+  }
+
 </style>
 </head>
 <body>
@@ -844,6 +1141,9 @@
     <button class="seg-btn" id="tab-alerts" onclick="switchView('alerts')">
       🚨 Alertas da Frota <span class="seg-count" id="seg-count-alerts">0</span>
     </button>
+    <button class="seg-btn" id="tab-comandos" onclick="switchView('comandos')">
+      ⚡ Comandos Servidores <span class="seg-count" id="seg-count-comandos" style="background: rgba(255, 214, 10, 0.15); color: #ffd60a; border-color: rgba(255, 214, 10, 0.3);">Console</span>
+    </button>
   </div>
 
   <!-- Controls Bar -->
@@ -877,7 +1177,7 @@
             <th>Antenas Wi-Fi</th>
             <th class="num">TGs<br><small id="tg-header-date">—</small></th>
             <th>Última Atualização</th>
-            <th>Painel Filial</th>
+            <th>Ações Rápidas</th>
           </tr>
         </thead>
         <tbody id="table-body">
@@ -905,9 +1205,174 @@
     </div>
   </div>
 
+  
+  <!-- VIEW 4: CENTRAL DE COMANDOS REMOTOS PARA OS SERVIDORES -->
+  <div class="view-container" id="view-comandos">
+    <div class="cmd-container">
+      
+      <!-- Painel de Envio de Comandos -->
+      <div class="cmd-panel">
+        <div class="cmd-header">
+          <div>
+            <h3>⚡ Console de Comandos Remotos</h3>
+            <p>Envie instruções em tempo real para os servidores das garagens via Supabase</p>
+          </div>
+          <span id="sb-status-badge" class="cmd-hist-badge badge-pending">Conectando...</span>
+        </div>
+
+        <!-- Seletor de Garagem Alvo -->
+        <div class="target-select-wrap">
+          <label class="target-label" for="cmd-target-select">🎯 Selecione o Servidor Destino:</label>
+          <select id="cmd-target-select" class="target-select" onchange="aoMudarGaragemAlvo()">
+            <option value="TODAS">🌐 [TODAS AS GARAGENS] — Disparo em Lote</option>
+          </select>
+        </div>
+
+        <!-- Catálogo de Comandos -->
+        <label class="target-label">🛠️ Selecione a Ação a Executar:</label>
+        <div class="cmd-grid" id="cmd-catalog-grid">
+          
+          <div class="cmd-card selected" onclick="selecionarComando('restart', this)" data-cmd="restart">
+            <div class="cmd-card-top">
+              <span class="cmd-card-icon">🔄</span>
+              <span class="cmd-card-title">Reiniciar V3LAN + WHClient</span>
+              <span class="cmd-card-badge">Programas</span>
+            </div>
+            <div class="cmd-card-desc">Finaliza e reabre o V3LAN e o cliente Wormhole para destravar coletas e espelhos estagnados.</div>
+          </div>
+
+          <div class="cmd-card" onclick="selecionarComando('soft_restart', this)" data-cmd="soft_restart">
+            <div class="cmd-card-top">
+              <span class="cmd-card-icon">🔁</span>
+              <span class="cmd-card-title">Soft Restart do Robô</span>
+              <span class="cmd-card-badge">Bot Python</span>
+            </div>
+            <div class="cmd-card-desc">Recarrega o processo do bot Python da garagem aplicando novas configurações sem fechar outros apps.</div>
+          </div>
+
+          <div class="cmd-card" onclick="selecionarComando('git_pull_restart', this)" data-cmd="git_pull_restart">
+            <div class="cmd-card-top">
+              <span class="cmd-card-icon">🚀</span>
+              <span class="cmd-card-title">Atualizar Código via Git</span>
+              <span class="cmd-card-badge">Git Pull</span>
+            </div>
+            <div class="cmd-card-desc">Executa 'git pull' no servidor para baixar as últimas melhorias do repositório e reinicia o robô.</div>
+          </div>
+
+          <div class="cmd-card" onclick="selecionarComando('gerar_relatorio', this)" data-cmd="gerar_relatorio">
+            <div class="cmd-card-top">
+              <span class="cmd-card-icon">📊</span>
+              <span class="cmd-card-title">Gerar Relatório Imediato</span>
+              <span class="cmd-card-badge">Relatório</span>
+            </div>
+            <div class="cmd-card-desc">Força uma checagem completa de comunicação agora e envia o resumo consolidado ao Telegram.</div>
+          </div>
+
+          <div class="cmd-card" onclick="selecionarComando('reprocessar', this)" data-cmd="reprocessar">
+            <div class="cmd-card-top">
+              <span class="cmd-card-icon">⏳</span>
+              <span class="cmd-card-title">Reprocessar Transmissões</span>
+              <span class="cmd-card-badge">TGs Data</span>
+            </div>
+            <div class="cmd-card-desc">Reprocessa todos os veículos para uma data específica, revalidando arquivos TGs ausentes.</div>
+          </div>
+
+          <div class="cmd-card" onclick="selecionarComando('reiniciar_biometria', this)" data-cmd="reiniciar_biometria">
+            <div class="cmd-card-top">
+              <span class="cmd-card-icon">🧬</span>
+              <span class="cmd-card-title">Reiniciar Biometria</span>
+              <span class="cmd-card-badge">Serviço</span>
+            </div>
+            <div class="cmd-card-desc">Reinicia o serviço local de captura e integração biométrica da catraca/garagem.</div>
+          </div>
+
+          <div class="cmd-card" onclick="selecionarComando('criar_tsk', this)" data-cmd="criar_tsk">
+            <div class="cmd-card-top">
+              <span class="cmd-card-icon">📋</span>
+              <span class="cmd-card-title">Criar Arquivos TSK</span>
+              <span class="cmd-card-badge">TSK Lote</span>
+            </div>
+            <div class="cmd-card-desc">Gera arquivos TSK forçando a atualização e comunicação dos prefixos informados.</div>
+          </div>
+
+          <div class="cmd-card" onclick="selecionarComando('alertar_tsk', this)" data-cmd="alertar_tsk">
+            <div class="cmd-card-top">
+              <span class="cmd-card-icon">⚠️</span>
+              <span class="cmd-card-title">Alertar TSKs Ausentes</span>
+              <span class="cmd-card-badge">Telegram</span>
+            </div>
+            <div class="cmd-card-desc">Varre as tentativas de TSK da garagem e dispara alerta de pendências no grupo do Telegram.</div>
+          </div>
+
+          <div class="cmd-card danger" onclick="selecionarComando('reiniciar_pc', this)" data-cmd="reiniciar_pc">
+            <div class="cmd-card-top">
+              <span class="cmd-card-icon">💻</span>
+              <span class="cmd-card-title">Reiniciar Computador / PC</span>
+              <span class="cmd-card-badge" style="color:var(--danger)">Reboot 30s</span>
+            </div>
+            <div class="cmd-card-desc">Executa o reinício físico do sistema operacional Windows do servidor após aviso de 30 segundos.</div>
+          </div>
+
+        </div>
+
+        <!-- Parâmetros Adicionais (Aparece quando o comando exige) -->
+        <div class="cmd-params-wrap" id="cmd-params-wrap" style="display: none;">
+          <label id="cmd-params-label" for="cmd-params-input">Parâmetros do Comando:</label>
+          <input type="text" id="cmd-params-input" class="cmd-params-input" placeholder="">
+          <small id="cmd-params-help" style="display:block; margin-top:5px; color:var(--text-muted); font-size:0.75rem;"></small>
+        </div>
+
+        <!-- Botão de Disparo -->
+        <button id="btn-disparar-comando" class="cmd-send-btn" onclick="executarEnvioComando()">
+          <span>⚡ Disparar Comando para Servidor</span>
+        </button>
+        <div id="cmd-feedback-msg" style="margin-top: 10px; font-size: 0.82rem; text-align: center; min-height: 1.2em;"></div>
+      </div>
+
+      <!-- Painel de Histórico e Status em Tempo Real -->
+      <div class="cmd-panel">
+        <div class="cmd-header">
+          <div>
+            <h3>📋 Histórico de Execuções</h3>
+            <p>Comandos disparados recentemente e status de leitura</p>
+          </div>
+          <button class="btn-ghost" style="padding: 6px 12px; font-size: 0.78rem;" onclick="carregarHistoricoComandos(true)">🔄 Atualizar</button>
+        </div>
+
+        <div class="cmd-history-list" id="cmd-history-list">
+          <div style="text-align: center; color: var(--text-muted); padding: 40px;">
+            Carregando histórico de comandos remotos…
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
   <div class="export-status" id="export-status-text"></div>
 
   <footer id="footer-info">Sistema de Monitoramento Integrado · Atualização automática a cada 5 minutos.</footer>
+</div>
+
+
+<!-- Modal de Confirmação de Segurança Apple -->
+<div class="modal-overlay" id="modal-confirm-cmd" onclick="fecharModalConfirm(event)">
+  <div class="modal-box" style="max-width: 480px;" onclick="event.stopPropagation()">
+    <div class="modal-header">
+      <h3 class="modal-title" style="color: #ffd60a;">⚠️ Confirmação de Segurança</h3>
+      <button class="modal-close" onclick="fecharModalConfirm()">✕</button>
+    </div>
+    <div class="modal-body">
+      <p id="confirm-cmd-text" style="color: var(--text-primary); font-size: 0.95rem; line-height: 1.5; margin: 0 0 16px 0;"></p>
+      <div style="background: rgba(255, 69, 58, 0.1); border: 1px solid rgba(255, 69, 58, 0.25); border-radius: var(--radius-sm); padding: 12px; font-size: 0.8rem; color: #ff8b82; margin-bottom: 20px;">
+        Esta ação será transmitida aos servidores conectados e entrará na fila de execução imediata.
+      </div>
+      <div style="display: flex; gap: 10px; justify-content: flex-end;">
+        <button class="btn-ghost" onclick="fecharModalConfirm()">Cancelar</button>
+        <button class="btn-primary" id="btn-confirm-exec" style="background: var(--accent); color: #04211d;">Confirmar e Executar</button>
+      </div>
+    </div>
+  </div>
 </div>
 
 <!-- Modal com Detalhes das Antenas da Garagem -->
@@ -950,6 +1415,316 @@ function tempoRelativo(d) {
   return `há ${Math.round(diffH / 24)}d`;
 }
 
+
+/* ==============================================================================
+   INTEGRAÇÃO SUPABASE & CENTRAL DE COMANDOS REMOTOS
+   ============================================================================== */
+const SUPABASE_URL = "https://oiszcvmxteebrbtgcily.supabase.co";
+const SUPABASE_KEY = "sb_publishable_qehYrlZWWZpMv7Su6nvapA_25GNRxJs";
+
+let sbClient = null;
+let GARAGENS_DB = []; // Registros da tabela garagens (id, nome_garagem, slug)
+let COMANDO_SELECIONADO = 'restart';
+let COMANDOS_RECENTES = [];
+let pendingCommandAction = null;
+
+function initSupabaseCommands() {
+  const badge = document.getElementById('sb-status-badge');
+  if (!window.supabase) {
+    if (badge) {
+      badge.textContent = "Supabase JS Indisponível";
+      badge.className = "cmd-hist-badge badge-pending";
+    }
+    return;
+  }
+
+  try {
+    sbClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
+    if (badge) {
+      badge.textContent = "● Conectado ao Supabase";
+      badge.className = "cmd-hist-badge badge-done";
+    }
+    carregarGaragensDoSupabase();
+    carregarHistoricoComandos();
+    
+    // Auto-refresh do histórico de comandos a cada 15 segundos
+    setInterval(carregarHistoricoComandos, 15000);
+  } catch(e) {
+    console.error("Falha ao inicializar Supabase:", e);
+    if (badge) {
+      badge.textContent = "Erro na Conexão";
+      badge.className = "cmd-hist-badge badge-pending";
+    }
+  }
+}
+
+async function carregarGaragensDoSupabase() {
+  if (!sbClient) return;
+  try {
+    const { data, error } = await sbClient.from('garagens').select('id, nome_garagem, slug').order('nome_garagem');
+    if (!error && data) {
+      GARAGENS_DB = data;
+      atualizarSelectGaragens(data);
+    }
+  } catch (err) {
+    console.warn("Aviso ao carregar garagens do Supabase:", err);
+  }
+}
+
+function atualizarSelectGaragens(lista) {
+  const select = document.getElementById('cmd-target-select');
+  if (!select) return;
+  
+  const valAtual = select.value;
+  select.innerHTML = '<option value="TODAS">🌐 [TODAS AS GARAGENS] — Disparo em Lote</option>';
+  
+  lista.forEach(g => {
+    const opt = document.createElement('option');
+    opt.value = g.id;
+    opt.dataset.nome = g.nome_garagem;
+    opt.textContent = `🏢 ${g.nome_garagem}`;
+    select.appendChild(opt);
+  });
+  
+  if (valAtual) select.value = valAtual;
+}
+
+function selecionarComando(cmdNome, cardEl) {
+  COMANDO_SELECIONADO = cmdNome;
+  
+  document.querySelectorAll('#cmd-catalog-grid .cmd-card').forEach(c => c.classList.remove('selected'));
+  if (cardEl) cardEl.classList.add('selected');
+  
+  const wrap = document.getElementById('cmd-params-wrap');
+  const label = document.getElementById('cmd-params-label');
+  const input = document.getElementById('cmd-params-input');
+  const help = document.getElementById('cmd-params-help');
+  const btn = document.getElementById('btn-disparar-comando');
+  
+  // Customizações por tipo de comando
+  if (cmdNome === 'reiniciar_pc') {
+    btn.classList.add('danger-action');
+    btn.innerHTML = '<span>⚠️ Reiniciar Computador / Servidor (Reboot 30s)</span>';
+  } else {
+    btn.classList.remove('danger-action');
+    btn.innerHTML = '<span>⚡ Disparar Comando para Servidor</span>';
+  }
+  
+  if (cmdNome === 'reprocessar') {
+    wrap.style.display = 'block';
+    label.textContent = '📅 Data para Reprocessar:';
+    input.placeholder = 'DD/MM/AAAA (ex: ' + new Date().toLocaleDateString('pt-BR') + ')';
+    input.value = new Date().toLocaleDateString('pt-BR');
+    help.textContent = 'O robô fará a varredura completa dos veículos para a data informada.';
+  } else if (cmdNome === 'criar_tsk') {
+    wrap.style.display = 'block';
+    label.textContent = '📋 Prefixos dos Veículos:';
+    input.placeholder = 'Ex: 101, 102, 105';
+    input.value = '';
+    help.textContent = 'Informe os prefixos separados por vírgula para criar os arquivos TSK de forçamento.';
+  } else {
+    wrap.style.display = 'none';
+    input.value = '';
+  }
+}
+
+function aoMudarGaragemAlvo() {
+  const select = document.getElementById('cmd-target-select');
+  const opt = select.options[select.selectedIndex];
+  const btn = document.getElementById('btn-disparar-comando');
+  const nome = opt ? opt.textContent.trim() : 'Servidor';
+  
+  if (COMANDO_SELECIONADO === 'reiniciar_pc') {
+    btn.innerHTML = `<span>⚠️ Reiniciar Computador (${nome})</span>`;
+  } else {
+    btn.innerHTML = `<span>⚡ Disparar Comando para ${nome}</span>`;
+  }
+}
+
+function abrirConsoleComandoGaragem(garagemNome) {
+  switchView('comandos');
+  
+  // Tenta encontrar a garagem no select
+  setTimeout(() => {
+    const select = document.getElementById('cmd-target-select');
+    if (!select) return;
+    
+    for (let i = 0; i < select.options.length; i++) {
+      const opt = select.options[i];
+      if (opt.dataset && opt.dataset.nome && opt.dataset.nome.toUpperCase() === garagemNome.toUpperCase()) {
+        select.selectedIndex = i;
+        aoMudarGaragemAlvo();
+        break;
+      }
+    }
+  }, 100);
+}
+
+function executarEnvioComando() {
+  const select = document.getElementById('cmd-target-select');
+  const targetId = select.value;
+  const targetName = select.options[select.selectedIndex].textContent;
+  const inputParam = document.getElementById('cmd-params-input');
+  const params = inputParam ? inputParam.value.trim() : null;
+  
+  if (COMANDO_SELECIONADO === 'reprocessar' && !params) {
+    alert('Por favor, informe a data para o reprocessamento no formato DD/MM/AAAA.');
+    return;
+  }
+  if (COMANDO_SELECIONADO === 'criar_tsk' && !params) {
+    alert('Por favor, informe ao menos um prefixo para a criação do arquivo TSK.');
+    return;
+  }
+  
+  // Confirmação para ações críticas ou para TODAS as garagens
+  const isPerigoso = COMANDO_SELECIONADO === 'reiniciar_pc';
+  const isTodas = targetId === 'TODAS';
+  
+  if (isPerigoso || isTodas) {
+    const modal = document.getElementById('modal-confirm-cmd');
+    const msg = document.getElementById('confirm-cmd-text');
+    const btnConfirm = document.getElementById('btn-confirm-exec');
+    
+    if (isPerigoso && isTodas) {
+      msg.innerHTML = `<b>ATENÇÃO MÁXIMA:</b> Você está prestes a reiniciar <b>TODOS OS COMPUTADORES/SERVIDORES</b> de todas as garagens cadastradas!`;
+      btnConfirm.style.background = 'var(--danger)';
+      btnConfirm.style.color = '#fff';
+    } else if (isPerigoso) {
+      msg.innerHTML = `Você está prestes a reiniciar o servidor de <b>${targetName}</b>. O computador será reiniciado em 30 segundos.`;
+      btnConfirm.style.background = 'var(--danger)';
+      btnConfirm.style.color = '#fff';
+    } else {
+      msg.innerHTML = `Você está prestes a executar a ação <b>${COMANDO_SELECIONADO}</b> em <b>TODAS AS GARAGENS</b> cadastradas.`;
+      btnConfirm.style.background = 'var(--accent)';
+      btnConfirm.style.color = '#04211d';
+    }
+    
+    btnConfirm.onclick = () => {
+      fecharModalConfirm();
+      processarEnvioSupabase(targetId, COMANDO_SELECIONADO, params);
+    };
+    
+    if (modal) modal.classList.add('active');
+    return;
+  }
+  
+  processarEnvioSupabase(targetId, COMANDO_SELECIONADO, params);
+}
+
+function fecharModalConfirm(e) {
+  if (e && e.target && !e.target.classList.contains('modal-overlay') && !e.target.classList.contains('modal-close') && e.target.tagName !== 'BUTTON') return;
+  const modal = document.getElementById('modal-confirm-cmd');
+  if (modal) modal.classList.remove('active');
+}
+
+async function processarEnvioSupabase(targetId, comando, parametros) {
+  const btn = document.getElementById('btn-disparar-comando');
+  const feedback = document.getElementById('cmd-feedback-msg');
+  
+  if (!sbClient) {
+    feedback.innerHTML = '<span style="color:var(--danger)">❌ Erro: Supabase não conectado.</span>';
+    return;
+  }
+  
+  btn.disabled = true;
+  feedback.innerHTML = '<span style="color:var(--accent)">⏳ Enviando instrução aos servidores...</span>';
+  
+  try {
+    let rowsToInsert = [];
+    
+    if (targetId === 'TODAS') {
+      if (GARAGENS_DB.length === 0) {
+        await carregarGaragensDoSupabase();
+      }
+      rowsToInsert = GARAGENS_DB.map(g => ({
+        garagem_id: g.id,
+        comando: comando,
+        parametros: parametros || null,
+        lido: false
+      }));
+    } else {
+      rowsToInsert = [{
+        garagem_id: targetId,
+        comando: comando,
+        parametros: parametros || null,
+        lido: false
+      }];
+    }
+    
+    if (rowsToInsert.length === 0) {
+      throw new Error("Nenhuma garagem disponível para envio.");
+    }
+    
+    const { data, error } = await sbClient.from('comandos_remotos').insert(rowsToInsert);
+    if (error) throw error;
+    
+    feedback.innerHTML = `<span style="color:var(--online)">✅ Comando transmitido com sucesso (${rowsToInsert.length} servidor(es))! O robô executará em instantes.</span>`;
+    
+    // Atualiza o histórico
+    setTimeout(carregarHistoricoComandos, 1000);
+    setTimeout(() => { if (feedback) feedback.innerHTML = ''; }, 6000);
+  } catch (err) {
+    console.error("Erro ao enviar comando remoto:", err);
+    feedback.innerHTML = `<span style="color:var(--danger)">❌ Falha ao transmitir comando: ${err.message || err}</span>`;
+  } finally {
+    btn.disabled = false;
+  }
+}
+
+async function carregarHistoricoComandos(manual = false) {
+  if (!sbClient) return;
+  const listEl = document.getElementById('cmd-history-list');
+  if (!listEl) return;
+  
+  if (manual) {
+    listEl.innerHTML = '<div style="text-align:center; color:var(--text-muted); padding:20px;">Atualizando histórico…</div>';
+  }
+  
+  try {
+    const { data, error } = await sbClient
+      .from('comandos_remotos')
+      .select('id, comando, parametros, lido, criado_em, garagens(nome_garagem)')
+      .order('id', { ascending: false })
+      .limit(20);
+      
+    if (error) throw error;
+    
+    if (!data || data.length === 0) {
+      listEl.innerHTML = '<div style="text-align:center; color:var(--text-muted); padding:30px;">Nenhum comando registrado recentemente.</div>';
+      return;
+    }
+    
+    COMANDOS_RECENTES = data;
+    let html = '';
+    
+    data.forEach(c => {
+      const gNome = (c.garagens && c.garagens.nome_garagem) ? c.garagens.nome_garagem : 'Garagem';
+      const statusCls = c.lido ? 'badge-done' : 'badge-pending';
+      const statusTxt = c.lido ? '✅ Executado pelo Robô' : '⏳ Aguardando Leitura';
+      const dt = new Date(c.criado_em);
+      const horaStr = dt.toLocaleTimeString('pt-BR');
+      const paramStr = c.parametros ? ` · Parâmetro: <b>${c.parametros}</b>` : '';
+      
+      html += `
+        <div class="cmd-history-item">
+          <div class="cmd-hist-top">
+            <span class="cmd-hist-target">🏢 ${gNome}</span>
+            <span class="cmd-hist-badge ${statusCls}">${statusTxt}</span>
+          </div>
+          <div class="cmd-hist-body">
+            <span>Ação: <b>${c.comando}</b>${paramStr}</span>
+            <span class="cmd-hist-time">${horaStr} (${tempoRelativo(dt)})</span>
+          </div>
+        </div>
+      `;
+    });
+    
+    listEl.innerHTML = html;
+  } catch (err) {
+    console.warn("Erro ao buscar histórico de comandos:", err);
+  }
+}
+
 function switchView(viewName) {
   CURRENT_VIEW = viewName;
   document.querySelectorAll('.seg-btn').forEach(btn => btn.classList.remove('active'));
@@ -974,6 +1749,7 @@ document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('filtro-garagem').addEventListener('input', renderAll);
 
   fetchAllData();
+  initSupabaseCommands();
   setInterval(fetchAllData, AUTO_REFRESH_MS);
 });
 
@@ -1106,8 +1882,9 @@ function renderTable() {
       const relTime = tempoRelativo(lastUp);
 
       const linkPainel = (d.panel_url && d.panel_url !== 'N/A')
-        ? `<a class="panel-link" href="${d.panel_url}" target="_blank" rel="noopener">Abrir Painel ↗</a>`
-        : `<a class="panel-link" href="COMUNICAÇÕES_${d.garagem}.html" target="_blank" rel="noopener">Local ↗</a>`;
+        ? `<a class="panel-link" href="${d.panel_url}" target="_blank" rel="noopener" title="Abrir painel da filial">Painel ↗</a>`
+        : `<a class="panel-link" href="COMUNICAÇÕES_${d.garagem}.html" target="_blank" rel="noopener" title="Abrir painel local">Local ↗</a>`;
+      const btnCmd = `<button class="btn-cmd-quick" onclick="abrirConsoleComandoGaragem('${d.garagem}')" title="Executar comando no servidor de ${d.garagem}">⚡ Comando</button>`;
 
       linhasHTML += `
         <tr>
@@ -1118,7 +1895,7 @@ function renderTable() {
           <td data-label="Antenas Wi-Fi">${antenaCell}</td>
           <td data-label="TGs" class="num">${tgCell}</td>
           <td data-label="Atualizado"><div class="updated-cell">${lastUp.toLocaleTimeString('pt-BR')}<div class="rel">${relTime}</div></div></td>
-          <td data-label="Painel Filial">${linkPainel}</td>
+          <td data-label="Ações"><div style="display:flex; gap:6px; align-items:center;">${linkPainel}${btnCmd}</div></td>
         </tr>`;
     });
 
