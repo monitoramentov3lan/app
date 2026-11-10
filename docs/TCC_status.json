@@ -2,9 +2,14 @@
   "garagem": "TCC",
   "online": 2,
   "offline": 0,
-  "last_update": "2026-11-09T23:24:10.218582-03:00",
+  "last_update": "2026-11-10T00:24:10.223583-03:00",
   "panel_url": "https://monitoramentov3lan.github.io/tcc/COMUNICAÇÕES_TCC.html",
   "tgs_history": [
+    {
+      "data": "10/11/2026",
+      "count": 0,
+      "filename": "N/A"
+    },
     {
       "data": "09/11/2026",
       "count": 7,
@@ -154,11 +159,6 @@
       "data": "11/10/2026",
       "count": 4,
       "filename": "TGs_TCC_20261011.txt"
-    },
-    {
-      "data": "10/10/2026",
-      "count": 5,
-      "filename": "TGs_TCC_20261010.txt"
     }
   ],
   "antenas": [
@@ -166,7 +166,7 @@
       "nome": "antena1",
       "ip": "172.54.203.101",
       "status": "online",
-      "ultimo_ping": "09/11/2026 23:24:06",
+      "ultimo_ping": "10/11/2026 00:24:09",
       "ultima_alteracao": "09/11/2026 17:54:10",
       "detalhes": "HTTP 200 OK"
     }
