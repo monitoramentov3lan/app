@@ -2,12 +2,12 @@
   "garagem": "PATROL",
   "online": 11,
   "offline": 0,
-  "last_update": "2026-11-10T20:06:36.097388-03:00",
+  "last_update": "2026-11-10T20:36:36.097306-03:00",
   "panel_url": "https://monitoramentov3lan.github.io/patrol/COMUNICAÇÕES_PATROL.html",
   "tgs_history": [
     {
       "data": "10/11/2026",
-      "count": 9,
+      "count": 10,
       "filename": "TGs_PATROL_20261110.txt"
     },
     {
@@ -166,7 +166,7 @@
       "nome": "antena1",
       "ip": "172.54.131.101",
       "status": "online",
-      "ultimo_ping": "10/11/2026 20:06:34",
+      "ultimo_ping": "10/11/2026 20:36:33",
       "ultima_alteracao": "10/11/2026 14:36:36",
       "detalhes": "HTTP 200 OK"
     }
