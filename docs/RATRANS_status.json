@@ -2,7 +2,7 @@
   "garagem": "RATRANS",
   "online": 79,
   "offline": 0,
-  "last_update": "2026-11-10T12:12:57.292467-03:00",
+  "last_update": "2026-11-10T12:42:57.291954-03:00",
   "panel_url": "https://monitoramentov3lan.github.io/ratrans/COMUNICAÇÕES_RATRANS.html",
   "tgs_history": [
     {
@@ -166,7 +166,7 @@
       "nome": "antena1",
       "ip": "172.54.102.102",
       "status": "online",
-      "ultimo_ping": "10/11/2026 12:12:55",
+      "ultimo_ping": "10/11/2026 12:42:56",
       "ultima_alteracao": "10/11/2026 09:12:57",
       "detalhes": "HTTP 200 OK"
     },
@@ -174,7 +174,7 @@
       "nome": "antena2",
       "ip": "172.54.102.103",
       "status": "online",
-      "ultimo_ping": "10/11/2026 12:12:54",
+      "ultimo_ping": "10/11/2026 12:42:53",
       "ultima_alteracao": "10/11/2026 09:12:57",
       "detalhes": "HTTP 200 OK"
     },
@@ -182,7 +182,7 @@
       "nome": "antena3",
       "ip": "172.54.102.104",
       "status": "online",
-      "ultimo_ping": "10/11/2026 12:12:56",
+      "ultimo_ping": "10/11/2026 12:42:55",
       "ultima_alteracao": "10/11/2026 09:12:57",
       "detalhes": "HTTP 200 OK"
     },
@@ -190,7 +190,7 @@
       "nome": "antena4",
       "ip": "172.54.102.105",
       "status": "online",
-      "ultimo_ping": "10/11/2026 12:12:54",
+      "ultimo_ping": "10/11/2026 12:42:53",
       "ultima_alteracao": "10/11/2026 09:12:57",
       "detalhes": "HTTP 200 OK"
     },
@@ -198,7 +198,7 @@
       "nome": "antena5",
       "ip": "172.54.102.106",
       "status": "online",
-      "ultimo_ping": "10/11/2026 12:12:56",
+      "ultimo_ping": "10/11/2026 12:42:56",
       "ultima_alteracao": "10/11/2026 09:12:57",
       "detalhes": "HTTP 200 OK"
     },
@@ -206,7 +206,7 @@
       "nome": "antena6",
       "ip": "172.54.102.107",
       "status": "online",
-      "ultimo_ping": "10/11/2026 12:12:56",
+      "ultimo_ping": "10/11/2026 12:42:55",
       "ultima_alteracao": "10/11/2026 09:12:57",
       "detalhes": "HTTP 200 OK"
     }
