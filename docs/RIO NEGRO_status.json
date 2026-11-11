@@ -2,7 +2,7 @@
   "garagem": "RIO NEGRO",
   "online": 16,
   "offline": 0,
-  "last_update": "2026-11-11T06:06:07.533663-03:00",
+  "last_update": "2026-11-11T06:36:07.530921-03:00",
   "panel_url": "https://monitoramentov3lan.github.io/rio-negro/COMUNICAÇÕES_RIO NEGRO.html",
   "tgs_history": [
     {
@@ -166,7 +166,7 @@
       "nome": "antena1",
       "ip": "172.54.55.101",
       "status": "online",
-      "ultimo_ping": "11/11/2026 06:06:06",
+      "ultimo_ping": "11/11/2026 06:36:06",
       "ultima_alteracao": "10/11/2026 14:36:07",
       "detalhes": "HTTP 200 OK"
     }
