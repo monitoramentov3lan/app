@@ -2,12 +2,12 @@
   "garagem": "PLANETA",
   "online": 3,
   "offline": 0,
-  "last_update": "2026-11-11T20:06:22.820970-03:00",
+  "last_update": "2026-11-11T20:36:22.829627-03:00",
   "panel_url": "https://monitoramentov3lan.github.io/planeta/COMUNICAÇÕES_PLANETA.html",
   "tgs_history": [
     {
       "data": "11/11/2026",
-      "count": 2,
+      "count": 6,
       "filename": "TGs_PLANETA_20261111.txt"
     },
     {
@@ -166,7 +166,7 @@
       "nome": "antena1",
       "ip": "172.54.67.101",
       "status": "online",
-      "ultimo_ping": "11/11/2026 20:06:21",
+      "ultimo_ping": "11/11/2026 20:36:20",
       "ultima_alteracao": "10/11/2026 14:36:22",
       "detalhes": "HTTP 200 OK"
     }
