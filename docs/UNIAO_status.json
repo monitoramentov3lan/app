@@ -2,7 +2,7 @@
   "garagem": "UNIAO",
   "online": 4,
   "offline": 0,
-  "last_update": "2026-11-10T21:36:37.969984-03:00",
+  "last_update": "2026-11-10T22:06:50.021274-03:00",
   "panel_url": "https://monitoramentov3lan.github.io/uniao/COMUNICAÇÕES_UNIAO.html",
   "tgs_history": [
     {
@@ -166,7 +166,7 @@
       "nome": "antena1",
       "ip": "172.54.19.101",
       "status": "online",
-      "ultimo_ping": "10/11/2026 21:36:35",
+      "ultimo_ping": "10/11/2026 22:06:45",
       "ultima_alteracao": "10/11/2026 14:36:37",
       "detalhes": "HTTP 200 OK"
     }
