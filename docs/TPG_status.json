@@ -2,7 +2,7 @@
   "garagem": "TPG",
   "online": 2,
   "offline": 0,
-  "last_update": "2026-11-12T10:06:23.666473-03:00",
+  "last_update": "2026-11-12T10:36:23.664019-03:00",
   "panel_url": "https://monitoramentov3lan.github.io/tpg/COMUNICAÇÕES_TPG.html",
   "tgs_history": [
     {
@@ -165,10 +165,10 @@
     {
       "nome": "antena1",
       "ip": "172.54.103.101",
-      "status": "offline",
-      "ultimo_ping": "12/11/2026 10:06:14",
-      "ultima_alteracao": "12/11/2026 10:05:54",
-      "detalhes": "Inacessível: HTTPConnectionPool(host='172.54.103.101', port=80): Read timed out. (read timeou"
+      "status": "online",
+      "ultimo_ping": "12/11/2026 10:36:22",
+      "ultima_alteracao": "12/11/2026 10:06:44",
+      "detalhes": "HTTP 200 OK"
     }
   ]
 }
