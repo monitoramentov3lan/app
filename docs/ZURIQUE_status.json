@@ -2,7 +2,7 @@
   "garagem": "ZURIQUE",
   "online": 11,
   "offline": 0,
-  "last_update": "2026-11-12T14:36:42.391426-03:00",
+  "last_update": "2026-11-12T15:06:42.378299-03:00",
   "panel_url": "https://monitoramentov3lan.github.io/zurique/COMUNICAÇÕES_ZURIQUE.html",
   "tgs_history": [
     {
@@ -166,7 +166,7 @@
       "nome": "antena1",
       "ip": "172.54.73.101",
       "status": "online",
-      "ultimo_ping": "12/11/2026 14:36:40",
+      "ultimo_ping": "12/11/2026 15:06:41",
       "ultima_alteracao": "10/11/2026 14:36:42",
       "detalhes": "HTTP 200 OK"
     }
