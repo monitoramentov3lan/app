@@ -2,7 +2,7 @@
   "garagem": "TSC",
   "online": 2,
   "offline": 0,
-  "last_update": "2026-11-12T05:44:35.688618-03:00",
+  "last_update": "2026-11-12T06:15:24.446038-03:00",
   "panel_url": "https://monitoramentov3lan.github.io/tsc/COMUNICAÇÕES_TSC.html",
   "tgs_history": [
     {
@@ -166,7 +166,7 @@
       "nome": "antena1",
       "ip": "172.54.133.101",
       "status": "online",
-      "ultimo_ping": "12/11/2026 05:44:31",
+      "ultimo_ping": "12/11/2026 06:15:23",
       "ultima_alteracao": "11/11/2026 13:14:35",
       "detalhes": "HTTP 200 OK"
     }
