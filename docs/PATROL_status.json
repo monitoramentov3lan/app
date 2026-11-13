@@ -2,7 +2,7 @@
   "garagem": "PATROL",
   "online": 10,
   "offline": 1,
-  "last_update": "2026-11-13T03:23:54.385017-03:00",
+  "last_update": "2026-11-13T03:53:54.388096-03:00",
   "panel_url": "https://monitoramentov3lan.github.io/patrol/COMUNICAÇÕES_PATROL.html",
   "tgs_history": [
     {
@@ -165,10 +165,10 @@
     {
       "nome": "antena1",
       "ip": "172.54.131.101",
-      "status": "offline",
-      "ultimo_ping": "13/11/2026 03:23:52",
-      "ultima_alteracao": "13/11/2026 03:23:42",
-      "detalhes": "Inacessível: HTTPConnectionPool(host='172.54.131.101', port=80): Max retries exceeded with ur"
+      "status": "online",
+      "ultimo_ping": "13/11/2026 03:53:52",
+      "ultima_alteracao": "13/11/2026 03:24:38",
+      "detalhes": "HTTP 200 OK"
     }
   ]
 }
