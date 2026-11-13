@@ -1,8 +1,8 @@
 {
   "garagem": "PREMIUM",
-  "online": 58,
+  "online": 59,
   "offline": 3,
-  "last_update": "2026-11-13T03:35:46.138800-03:00",
+  "last_update": "2026-11-13T04:05:46.141677-03:00",
   "panel_url": "https://monitoramentov3lan.github.io/premium/COMUNICAÇÕES_PREMIUM.html",
   "tgs_history": [
     {
@@ -166,8 +166,8 @@
       "nome": "antena1",
       "ip": "172.54.81.101",
       "status": "online",
-      "ultimo_ping": "13/11/2026 03:35:44",
-      "ultima_alteracao": "13/11/2026 02:36:01",
+      "ultimo_ping": "13/11/2026 04:05:42",
+      "ultima_alteracao": "13/11/2026 04:03:12",
       "detalhes": "HTTP 200 OK"
     }
   ]
