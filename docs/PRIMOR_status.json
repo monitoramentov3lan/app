@@ -1,8 +1,8 @@
 {
   "garagem": "PRIMOR",
-  "online": 158,
+  "online": 157,
   "offline": 14,
-  "last_update": "2026-11-13T16:06:38.758541-03:00",
+  "last_update": "2026-11-13T16:36:38.774655-03:00",
   "panel_url": "https://monitoramentov3lan.github.io/primor/COMUNICAÇÕES_PRIMOR.html",
   "tgs_history": [
     {
@@ -166,7 +166,7 @@
       "nome": "antena1",
       "ip": "172.54.140.235",
       "status": "online",
-      "ultimo_ping": "13/11/2026 16:06:36",
+      "ultimo_ping": "13/11/2026 16:36:36",
       "ultima_alteracao": "10/11/2026 14:36:38",
       "detalhes": "HTTP 200 OK"
     },
@@ -174,7 +174,7 @@
       "nome": "antena2",
       "ip": "172.54.140.236",
       "status": "offline",
-      "ultimo_ping": "13/11/2026 16:06:29",
+      "ultimo_ping": "13/11/2026 16:36:33",
       "ultima_alteracao": "13/11/2026 07:09:09",
       "detalhes": "Inacessível: HTTPConnectionPool(host='172.54.140.236', port=80): Max retries exceeded with ur"
     },
@@ -182,7 +182,7 @@
       "nome": "antena3",
       "ip": "172.54.140.237",
       "status": "online",
-      "ultimo_ping": "13/11/2026 16:06:37",
+      "ultimo_ping": "13/11/2026 16:36:35",
       "ultima_alteracao": "10/11/2026 18:20:01",
       "detalhes": "HTTP 200 OK"
     },
@@ -190,7 +190,7 @@
       "nome": "antena4",
       "ip": "172.54.140.238",
       "status": "offline",
-      "ultimo_ping": "13/11/2026 16:06:38",
+      "ultimo_ping": "13/11/2026 16:36:32",
       "ultima_alteracao": "13/11/2026 07:09:08",
       "detalhes": "Inacessível: HTTPConnectionPool(host='172.54.140.238', port=80): Max retries exceeded with ur"
     },
@@ -198,7 +198,7 @@
       "nome": "antena5",
       "ip": "172.54.140.239",
       "status": "online",
-      "ultimo_ping": "13/11/2026 16:06:38",
+      "ultimo_ping": "13/11/2026 16:36:37",
       "ultima_alteracao": "10/11/2026 14:36:38",
       "detalhes": "HTTP 200 OK"
     },
@@ -206,7 +206,7 @@
       "nome": "antena6",
       "ip": "172.54.140.240",
       "status": "online",
-      "ultimo_ping": "13/11/2026 16:06:37",
+      "ultimo_ping": "13/11/2026 16:36:36",
       "ultima_alteracao": "10/11/2026 14:36:38",
       "detalhes": "HTTP 200 OK"
     }
