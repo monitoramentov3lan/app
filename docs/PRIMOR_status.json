@@ -1,13 +1,13 @@
 {
   "garagem": "PRIMOR",
-  "online": 156,
-  "offline": 15,
-  "last_update": "2026-11-13T14:06:38.757465-03:00",
+  "online": 157,
+  "offline": 14,
+  "last_update": "2026-11-13T14:36:38.755590-03:00",
   "panel_url": "https://monitoramentov3lan.github.io/primor/COMUNICAÇÕES_PRIMOR.html",
   "tgs_history": [
     {
       "data": "13/11/2026",
-      "count": 51,
+      "count": 52,
       "filename": "TGs_PRIMOR_20261113.txt"
     },
     {
@@ -166,7 +166,7 @@
       "nome": "antena1",
       "ip": "172.54.140.235",
       "status": "online",
-      "ultimo_ping": "13/11/2026 14:06:35",
+      "ultimo_ping": "13/11/2026 14:36:35",
       "ultima_alteracao": "10/11/2026 14:36:38",
       "detalhes": "HTTP 200 OK"
     },
@@ -174,7 +174,7 @@
       "nome": "antena2",
       "ip": "172.54.140.236",
       "status": "offline",
-      "ultimo_ping": "13/11/2026 14:06:32",
+      "ultimo_ping": "13/11/2026 14:36:36",
       "ultima_alteracao": "13/11/2026 07:09:09",
       "detalhes": "Inacessível: HTTPConnectionPool(host='172.54.140.236', port=80): Max retries exceeded with ur"
     },
@@ -182,7 +182,7 @@
       "nome": "antena3",
       "ip": "172.54.140.237",
       "status": "online",
-      "ultimo_ping": "13/11/2026 14:06:34",
+      "ultimo_ping": "13/11/2026 14:36:36",
       "ultima_alteracao": "10/11/2026 18:20:01",
       "detalhes": "HTTP 200 OK"
     },
@@ -190,7 +190,7 @@
       "nome": "antena4",
       "ip": "172.54.140.238",
       "status": "offline",
-      "ultimo_ping": "13/11/2026 14:06:31",
+      "ultimo_ping": "13/11/2026 14:36:35",
       "ultima_alteracao": "13/11/2026 07:09:08",
       "detalhes": "Inacessível: HTTPConnectionPool(host='172.54.140.238', port=80): Max retries exceeded with ur"
     },
@@ -198,7 +198,7 @@
       "nome": "antena5",
       "ip": "172.54.140.239",
       "status": "online",
-      "ultimo_ping": "13/11/2026 14:06:34",
+      "ultimo_ping": "13/11/2026 14:36:37",
       "ultima_alteracao": "10/11/2026 14:36:38",
       "detalhes": "HTTP 200 OK"
     },
@@ -206,7 +206,7 @@
       "nome": "antena6",
       "ip": "172.54.140.240",
       "status": "online",
-      "ultimo_ping": "13/11/2026 14:06:34",
+      "ultimo_ping": "13/11/2026 14:36:36",
       "ultima_alteracao": "10/11/2026 14:36:38",
       "detalhes": "HTTP 200 OK"
     }
