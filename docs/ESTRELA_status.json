@@ -1,13 +1,13 @@
 {
   "garagem": "ESTRELA",
-  "online": 132,
+  "online": 134,
   "offline": 14,
-  "last_update": "2026-11-14T14:55:05.419144-03:00",
+  "last_update": "2026-11-14T15:25:05.511475-03:00",
   "panel_url": "https://monitoramentov3lan.github.io/estrela/COMUNICAÇÕES_ESTRELA.html",
   "tgs_history": [
     {
       "data": "14/11/2026",
-      "count": 63,
+      "count": 69,
       "filename": "TGs_ESTRELA_20261114.txt"
     },
     {
@@ -166,7 +166,7 @@
       "nome": "antena1",
       "ip": "172.54.101.102",
       "status": "online",
-      "ultimo_ping": "14/11/2026 14:55:03",
+      "ultimo_ping": "14/11/2026 15:25:01",
       "ultima_alteracao": "13/11/2026 13:55:05",
       "detalhes": "HTTP 200 OK"
     },
@@ -174,7 +174,7 @@
       "nome": "antena2",
       "ip": "172.54.101.103",
       "status": "online",
-      "ultimo_ping": "14/11/2026 14:55:03",
+      "ultimo_ping": "14/11/2026 15:25:02",
       "ultima_alteracao": "13/11/2026 13:55:05",
       "detalhes": "HTTP 200 OK"
     },
@@ -182,7 +182,7 @@
       "nome": "antena3",
       "ip": "172.54.101.104",
       "status": "online",
-      "ultimo_ping": "14/11/2026 14:55:03",
+      "ultimo_ping": "14/11/2026 15:25:02",
       "ultima_alteracao": "13/11/2026 13:55:05",
       "detalhes": "HTTP 200 OK"
     },
@@ -190,7 +190,7 @@
       "nome": "antena5",
       "ip": "172.54.101.106",
       "status": "online",
-      "ultimo_ping": "14/11/2026 14:55:03",
+      "ultimo_ping": "14/11/2026 15:25:02",
       "ultima_alteracao": "13/11/2026 13:55:05",
       "detalhes": "HTTP 200 OK"
     },
@@ -198,16 +198,16 @@
       "nome": "antena6",
       "ip": "172.54.101.107",
       "status": "online",
-      "ultimo_ping": "14/11/2026 14:55:00",
-      "ultima_alteracao": "14/11/2026 14:44:16",
+      "ultimo_ping": "14/11/2026 15:25:04",
+      "ultima_alteracao": "14/11/2026 15:01:32",
       "detalhes": "HTTP 200 OK"
     },
     {
       "nome": "antena7",
       "ip": "172.54.101.108",
       "status": "online",
-      "ultimo_ping": "14/11/2026 14:55:01",
-      "ultima_alteracao": "14/11/2026 14:44:32",
+      "ultimo_ping": "14/11/2026 15:25:01",
+      "ultima_alteracao": "14/11/2026 15:01:49",
       "detalhes": "HTTP 200 OK"
     }
   ]
