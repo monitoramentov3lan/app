@@ -1,13 +1,13 @@
 {
   "garagem": "ESTRELA",
-  "online": 143,
+  "online": 142,
   "offline": 1,
-  "last_update": "2026-11-13T21:25:05.421255-03:00",
+  "last_update": "2026-11-13T21:55:05.425021-03:00",
   "panel_url": "https://monitoramentov3lan.github.io/estrela/COMUNICAÇÕES_ESTRELA.html",
   "tgs_history": [
     {
       "data": "13/11/2026",
-      "count": 156,
+      "count": 177,
       "filename": "TGs_ESTRELA_20261113.txt"
     },
     {
@@ -166,7 +166,7 @@
       "nome": "antena1",
       "ip": "172.54.101.102",
       "status": "online",
-      "ultimo_ping": "13/11/2026 21:25:03",
+      "ultimo_ping": "13/11/2026 21:55:00",
       "ultima_alteracao": "13/11/2026 13:55:05",
       "detalhes": "HTTP 200 OK"
     },
@@ -174,7 +174,7 @@
       "nome": "antena2",
       "ip": "172.54.101.103",
       "status": "online",
-      "ultimo_ping": "13/11/2026 21:25:04",
+      "ultimo_ping": "13/11/2026 21:55:02",
       "ultima_alteracao": "13/11/2026 13:55:05",
       "detalhes": "HTTP 200 OK"
     },
@@ -182,7 +182,7 @@
       "nome": "antena3",
       "ip": "172.54.101.104",
       "status": "online",
-      "ultimo_ping": "13/11/2026 21:25:04",
+      "ultimo_ping": "13/11/2026 21:55:03",
       "ultima_alteracao": "13/11/2026 13:55:05",
       "detalhes": "HTTP 200 OK"
     },
@@ -190,7 +190,7 @@
       "nome": "antena5",
       "ip": "172.54.101.106",
       "status": "online",
-      "ultimo_ping": "13/11/2026 21:25:04",
+      "ultimo_ping": "13/11/2026 21:55:03",
       "ultima_alteracao": "13/11/2026 13:55:05",
       "detalhes": "HTTP 200 OK"
     },
@@ -198,7 +198,7 @@
       "nome": "antena6",
       "ip": "172.54.101.107",
       "status": "offline",
-      "ultimo_ping": "13/11/2026 21:24:58",
+      "ultimo_ping": "13/11/2026 21:54:55",
       "ultima_alteracao": "13/11/2026 15:00:03",
       "detalhes": "Inacessível: HTTPConnectionPool(host='172.54.101.107', port=80): Max retries exceeded with ur"
     },
@@ -206,7 +206,7 @@
       "nome": "antena7",
       "ip": "172.54.101.108",
       "status": "offline",
-      "ultimo_ping": "13/11/2026 21:24:57",
+      "ultimo_ping": "13/11/2026 21:55:04",
       "ultima_alteracao": "13/11/2026 15:00:12",
       "detalhes": "Inacessível: HTTPConnectionPool(host='172.54.101.108', port=80): Max retries exceeded with ur"
     }
