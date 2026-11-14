@@ -1,14 +1,14 @@
 {
   "garagem": "TAGUATUR",
-  "online": 5,
-  "offline": 48,
-  "last_update": "2026-11-14T00:05:28.249657-03:00",
+  "online": 51,
+  "offline": 2,
+  "last_update": "2026-11-14T01:05:28.262242-03:00",
   "panel_url": "https://monitoramentov3lan.github.io/taguatur/COMUNICAÇÕES_TAGUATUR.html",
   "tgs_history": [
     {
       "data": "14/11/2026",
-      "count": 0,
-      "filename": "N/A"
+      "count": 10,
+      "filename": "TGs_TAGUATUR_20261114.txt"
     },
     {
       "data": "13/11/2026",
@@ -166,7 +166,7 @@
       "nome": "antena1",
       "ip": "172.54.35.101",
       "status": "offline",
-      "ultimo_ping": "14/11/2026 00:05:26",
+      "ultimo_ping": "14/11/2026 01:05:24",
       "ultima_alteracao": "10/11/2026 14:35:30",
       "detalhes": "Inacessível: HTTPConnectionPool(host='172.54.35.101', port=80): Max retries exceeded with url"
     },
@@ -174,7 +174,7 @@
       "nome": "antena2",
       "ip": "172.54.35.102",
       "status": "online",
-      "ultimo_ping": "14/11/2026 00:05:24",
+      "ultimo_ping": "14/11/2026 01:05:27",
       "ultima_alteracao": "10/11/2026 14:35:28",
       "detalhes": "HTTP 200 OK"
     },
@@ -182,7 +182,7 @@
       "nome": "antena3",
       "ip": "172.54.35.103",
       "status": "online",
-      "ultimo_ping": "14/11/2026 00:05:24",
+      "ultimo_ping": "14/11/2026 01:05:27",
       "ultima_alteracao": "10/11/2026 14:35:28",
       "detalhes": "HTTP 200 OK"
     },
@@ -190,7 +190,7 @@
       "nome": "antena4",
       "ip": "172.54.35.104",
       "status": "online",
-      "ultimo_ping": "14/11/2026 00:05:25",
+      "ultimo_ping": "14/11/2026 01:05:24",
       "ultima_alteracao": "10/11/2026 14:35:28",
       "detalhes": "HTTP 200 OK"
     }
