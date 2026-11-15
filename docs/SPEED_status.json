@@ -1,8 +1,8 @@
 {
   "garagem": "SPEED",
-  "online": 44,
+  "online": 33,
   "offline": 0,
-  "last_update": "2026-11-15T15:35:59.859696-03:00",
+  "last_update": "2026-11-15T16:08:05.313172-03:00",
   "panel_url": "https://monitoramentov3lan.github.io/speed/COMUNICAÇÕES_SPEED.html",
   "tgs_history": [
     {
@@ -165,10 +165,10 @@
     {
       "nome": "antena1",
       "ip": "172.54.22.101",
-      "status": "online",
-      "ultimo_ping": "15/11/2026 15:35:56",
-      "ultima_alteracao": "10/11/2026 14:35:59",
-      "detalhes": "HTTP 200 OK"
+      "status": "offline",
+      "ultimo_ping": "15/11/2026 16:07:55",
+      "ultima_alteracao": "15/11/2026 15:38:13",
+      "detalhes": "Inacessível: HTTPConnectionPool(host='172.54.22.101', port=80): Max retries exceeded with url"
     }
   ]
 }
