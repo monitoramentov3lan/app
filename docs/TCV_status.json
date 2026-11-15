@@ -2,7 +2,7 @@
   "garagem": "TCV",
   "online": 3,
   "offline": 0,
-  "last_update": "2026-11-15T02:49:58.871846-03:00",
+  "last_update": "2026-11-15T03:51:09.708883-03:00",
   "panel_url": "https://monitoramentov3lan.github.io/tcv/COMUNICAÇÕES_TCV.html",
   "tgs_history": [
     {
@@ -166,16 +166,16 @@
       "nome": "antena1",
       "ip": "172.54.141.101",
       "status": "online",
-      "ultimo_ping": "15/11/2026 02:49:54",
-      "ultima_alteracao": "14/11/2026 03:18:31",
+      "ultimo_ping": "15/11/2026 03:51:05",
+      "ultima_alteracao": "15/11/2026 03:21:10",
       "detalhes": "HTTP 200 OK"
     },
     {
       "nome": "antena2",
       "ip": "172.54.141.102",
       "status": "online",
-      "ultimo_ping": "15/11/2026 02:49:54",
-      "ultima_alteracao": "14/11/2026 19:26:19",
+      "ultimo_ping": "15/11/2026 03:51:07",
+      "ultima_alteracao": "15/11/2026 03:21:00",
       "detalhes": "HTTP 200 OK"
     }
   ]
