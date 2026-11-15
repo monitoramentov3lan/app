@@ -2,7 +2,7 @@
   "garagem": "TPG",
   "online": 2,
   "offline": 0,
-  "last_update": "2026-11-15T14:06:34.240099-03:00",
+  "last_update": "2026-11-15T14:36:23.668485-03:00",
   "panel_url": "https://monitoramentov3lan.github.io/tpg/COMUNICAÇÕES_TPG.html",
   "tgs_history": [
     {
@@ -166,7 +166,7 @@
       "nome": "antena1",
       "ip": "172.54.103.101",
       "status": "online",
-      "ultimo_ping": "15/11/2026 14:06:31",
+      "ultimo_ping": "15/11/2026 14:36:20",
       "ultima_alteracao": "14/11/2026 20:00:57",
       "detalhes": "HTTP 200 OK"
     }
