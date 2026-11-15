@@ -2,7 +2,7 @@
   "garagem": "TCM-RAPOSA",
   "online": 26,
   "offline": 9,
-  "last_update": "2026-11-15T15:16:43.125306-03:00",
+  "last_update": "2026-11-15T15:46:43.123696-03:00",
   "panel_url": "https://monitoramentov3lan.github.io/tcm-raposa/COMUNICAÇÕES_TCM-RAPOSA.html",
   "tgs_history": [
     {
@@ -166,7 +166,7 @@
       "nome": "antena1",
       "ip": "172.54.140.249",
       "status": "online",
-      "ultimo_ping": "15/11/2026 15:16:39",
+      "ultimo_ping": "15/11/2026 15:46:42",
       "ultima_alteracao": "15/11/2026 03:46:46",
       "detalhes": "HTTP 200 OK"
     }
