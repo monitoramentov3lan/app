@@ -1,13 +1,13 @@
 {
   "garagem": "SPEED",
-  "online": 10,
+  "online": 15,
   "offline": 1,
-  "last_update": "2026-11-16T19:08:05.298928-03:00",
+  "last_update": "2026-11-16T19:38:05.306259-03:00",
   "panel_url": "https://monitoramentov3lan.github.io/speed/COMUNICAÇÕES_SPEED.html",
   "tgs_history": [
     {
       "data": "16/11/2026",
-      "count": 8,
+      "count": 20,
       "filename": "TGs_SPEED_20261116.txt"
     },
     {
@@ -166,7 +166,7 @@
       "nome": "antena1",
       "ip": "172.54.22.101",
       "status": "online",
-      "ultimo_ping": "16/11/2026 19:08:03",
+      "ultimo_ping": "16/11/2026 19:38:00",
       "ultima_alteracao": "16/11/2026 11:42:41",
       "detalhes": "HTTP 200 OK"
     }
