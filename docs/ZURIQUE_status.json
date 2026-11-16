@@ -2,9 +2,14 @@
   "garagem": "ZURIQUE",
   "online": 0,
   "offline": 11,
-  "last_update": "2026-11-15T23:36:42.387727-03:00",
+  "last_update": "2026-11-16T00:06:42.386116-03:00",
   "panel_url": "https://monitoramentov3lan.github.io/zurique/COMUNICAÇÕES_ZURIQUE.html",
   "tgs_history": [
+    {
+      "data": "16/11/2026",
+      "count": 0,
+      "filename": "N/A"
+    },
     {
       "data": "15/11/2026",
       "count": 0,
@@ -154,11 +159,6 @@
       "data": "17/10/2026",
       "count": 13,
       "filename": "TGs_ZURIQUE_20261017.txt"
-    },
-    {
-      "data": "16/10/2026",
-      "count": 16,
-      "filename": "TGs_ZURIQUE_20261016.txt"
     }
   ],
   "antenas": [
@@ -166,7 +166,7 @@
       "nome": "antena1",
       "ip": "172.54.73.101",
       "status": "offline",
-      "ultimo_ping": "15/11/2026 23:36:38",
+      "ultimo_ping": "16/11/2026 00:06:41",
       "ultima_alteracao": "14/11/2026 15:06:40",
       "detalhes": "Inacessível: HTTPConnectionPool(host='172.54.73.101', port=80): Read timed out. (read timeout"
     }
