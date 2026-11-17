@@ -2,7 +2,7 @@
   "garagem": "GLV",
   "online": 5,
   "offline": 1,
-  "last_update": "2026-11-17T05:49:31.374498-03:00",
+  "last_update": "2026-11-17T06:20:21.200791-03:00",
   "panel_url": "https://monitoramentov3lan.github.io/GLV/COMUNICAÇÕES_GLV.html",
   "tgs_history": [
     {
@@ -166,7 +166,7 @@
       "nome": "antena1",
       "ip": "172.54.17.253",
       "status": "online",
-      "ultimo_ping": "17/11/2026 05:49:28",
+      "ultimo_ping": "17/11/2026 06:20:20",
       "ultima_alteracao": "16/11/2026 10:19:31",
       "detalhes": "HTTP 200 OK"
     }
