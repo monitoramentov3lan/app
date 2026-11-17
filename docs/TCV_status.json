@@ -2,7 +2,7 @@
   "garagem": "TCV",
   "online": 3,
   "offline": 0,
-  "last_update": "2026-11-17T05:26:59.520819-03:00",
+  "last_update": "2026-11-17T05:56:59.533645-03:00",
   "panel_url": "https://monitoramentov3lan.github.io/tcv/COMUNICAÇÕES_TCV.html",
   "tgs_history": [
     {
@@ -166,17 +166,17 @@
       "nome": "antena1",
       "ip": "172.54.141.101",
       "status": "online",
-      "ultimo_ping": "17/11/2026 05:26:57",
+      "ultimo_ping": "17/11/2026 05:56:56",
       "ultima_alteracao": "17/11/2026 03:27:10",
       "detalhes": "HTTP 200 OK"
     },
     {
       "nome": "antena2",
       "ip": "172.54.141.102",
-      "status": "online",
-      "ultimo_ping": "17/11/2026 05:26:57",
-      "ultima_alteracao": "17/11/2026 03:26:59",
-      "detalhes": "HTTP 200 OK"
+      "status": "offline",
+      "ultimo_ping": "17/11/2026 05:56:57",
+      "ultima_alteracao": "17/11/2026 05:56:57",
+      "detalhes": "Inacessível: HTTPConnectionPool(host='172.54.141.102', port=80): Max retries exceeded with ur"
     }
   ]
 }
