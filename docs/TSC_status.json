@@ -1,10 +1,15 @@
 {
   "garagem": "TSC",
-  "online": 2,
-  "offline": 0,
-  "last_update": "2026-11-17T23:44:35.689189-03:00",
+  "online": 1,
+  "offline": 1,
+  "last_update": "2026-11-18T00:14:35.692238-03:00",
   "panel_url": "https://monitoramentov3lan.github.io/tsc/COMUNICAÇÕES_TSC.html",
   "tgs_history": [
+    {
+      "data": "18/11/2026",
+      "count": 0,
+      "filename": "N/A"
+    },
     {
       "data": "17/11/2026",
       "count": 5,
@@ -154,11 +159,6 @@
       "data": "19/10/2026",
       "count": 4,
       "filename": "TGs_TSC_20261019.txt"
-    },
-    {
-      "data": "18/10/2026",
-      "count": 5,
-      "filename": "TGs_TSC_20261018.txt"
     }
   ],
   "antenas": [
@@ -166,7 +166,7 @@
       "nome": "antena1",
       "ip": "172.54.133.101",
       "status": "online",
-      "ultimo_ping": "17/11/2026 23:44:34",
+      "ultimo_ping": "18/11/2026 00:14:33",
       "ultima_alteracao": "11/11/2026 13:14:35",
       "detalhes": "HTTP 200 OK"
     }
