@@ -1,13 +1,13 @@
 {
   "garagem": "TCM-RIBAMAR",
-  "online": 38,
-  "offline": 3,
-  "last_update": "2026-11-18T21:10:56.058288-03:00",
+  "online": 39,
+  "offline": 2,
+  "last_update": "2026-11-18T21:40:56.055155-03:00",
   "panel_url": "https://monitoramentov3lan.github.io/tcm-ribamar/COMUNICAÇÕES_TCM-RIBAMAR.html",
   "tgs_history": [
     {
       "data": "18/11/2026",
-      "count": 37,
+      "count": 39,
       "filename": "TGs_TCM-RIBAMAR_20261118.txt"
     },
     {
@@ -166,7 +166,7 @@
       "nome": "antena1",
       "ip": "172.54.140.250",
       "status": "online",
-      "ultimo_ping": "18/11/2026 21:10:54",
+      "ultimo_ping": "18/11/2026 21:40:55",
       "ultima_alteracao": "18/11/2026 12:41:42",
       "detalhes": "HTTP 200 OK"
     }
