@@ -1,13 +1,13 @@
 {
   "garagem": "PRIMOR",
-  "online": 153,
+  "online": 154,
   "offline": 13,
-  "last_update": "2026-11-19T05:19:05.422056-03:00",
+  "last_update": "2026-11-19T05:49:55.136630-03:00",
   "panel_url": "https://monitoramentov3lan.github.io/primor/COMUNICAÇÕES_PRIMOR.html",
   "tgs_history": [
     {
       "data": "19/11/2026",
-      "count": 17,
+      "count": 18,
       "filename": "TGs_PRIMOR_20261119.txt"
     },
     {
@@ -166,7 +166,7 @@
       "nome": "antena1",
       "ip": "172.54.140.235",
       "status": "online",
-      "ultimo_ping": "19/11/2026 05:19:02",
+      "ultimo_ping": "19/11/2026 05:49:50",
       "ultima_alteracao": "18/11/2026 05:25:18",
       "detalhes": "HTTP 200 OK"
     },
@@ -174,7 +174,7 @@
       "nome": "antena2",
       "ip": "172.54.140.236",
       "status": "online",
-      "ultimo_ping": "19/11/2026 05:19:02",
+      "ultimo_ping": "19/11/2026 05:49:51",
       "ultima_alteracao": "18/11/2026 17:45:31",
       "detalhes": "HTTP 200 OK"
     },
@@ -182,7 +182,7 @@
       "nome": "antena3",
       "ip": "172.54.140.237",
       "status": "online",
-      "ultimo_ping": "19/11/2026 05:19:03",
+      "ultimo_ping": "19/11/2026 05:49:51",
       "ultima_alteracao": "18/11/2026 14:51:03",
       "detalhes": "HTTP 200 OK"
     },
@@ -190,7 +190,7 @@
       "nome": "antena4",
       "ip": "172.54.140.238",
       "status": "online",
-      "ultimo_ping": "19/11/2026 05:19:02",
+      "ultimo_ping": "19/11/2026 05:49:55",
       "ultima_alteracao": "18/11/2026 17:45:28",
       "detalhes": "HTTP 200 OK"
     },
@@ -198,7 +198,7 @@
       "nome": "antena5",
       "ip": "172.54.140.239",
       "status": "online",
-      "ultimo_ping": "19/11/2026 05:19:01",
+      "ultimo_ping": "19/11/2026 05:49:54",
       "ultima_alteracao": "18/11/2026 05:24:22",
       "detalhes": "HTTP 200 OK"
     },
@@ -206,7 +206,7 @@
       "nome": "antena6",
       "ip": "172.54.140.240",
       "status": "online",
-      "ultimo_ping": "19/11/2026 05:19:04",
+      "ultimo_ping": "19/11/2026 05:49:52",
       "ultima_alteracao": "18/11/2026 05:24:20",
       "detalhes": "HTTP 200 OK"
     }
