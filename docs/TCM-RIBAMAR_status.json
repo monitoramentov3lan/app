@@ -1,8 +1,8 @@
 {
   "garagem": "TCM-RIBAMAR",
-  "online": 33,
+  "online": 32,
   "offline": 8,
-  "last_update": "2026-11-20T10:18:11.557116-03:00",
+  "last_update": "2026-11-20T11:37:47.173766-03:00",
   "panel_url": "https://monitoramentov3lan.github.io/tcm-ribamar/COMUNICAÇÕES_TCM-RIBAMAR.html",
   "tgs_history": [
     {
@@ -165,10 +165,10 @@
     {
       "nome": "antena1",
       "ip": "172.54.140.250",
-      "status": "online",
-      "ultimo_ping": "20/11/2026 10:18:08",
-      "ultima_alteracao": "20/11/2026 04:47:41",
-      "detalhes": "HTTP 200 OK"
+      "status": "offline",
+      "ultimo_ping": "20/11/2026 11:37:41",
+      "ultima_alteracao": "20/11/2026 11:07:52",
+      "detalhes": "Inacessível: HTTPConnectionPool(host='172.54.140.250', port=80): Max retries exceeded with ur"
     }
   ]
 }
