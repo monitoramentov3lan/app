@@ -1,13 +1,18 @@
 {
   "garagem": "ESTRELA",
-  "online": 148,
-  "offline": 1,
-  "last_update": "2026-11-19T23:44:42.864738-03:00",
+  "online": 67,
+  "offline": 82,
+  "last_update": "2026-11-20T00:14:42.856206-03:00",
   "panel_url": "https://monitoramentov3lan.github.io/estrela/COMUNICAÇÕES_ESTRELA.html",
   "tgs_history": [
     {
+      "data": "20/11/2026",
+      "count": 10,
+      "filename": "TGs_ESTRELA_20261120.txt"
+    },
+    {
       "data": "19/11/2026",
-      "count": 238,
+      "count": 248,
       "filename": "TGs_ESTRELA_20261119.txt"
     },
     {
@@ -154,11 +159,6 @@
       "data": "21/10/2026",
       "count": 256,
       "filename": "TGs_ESTRELA_20261021.txt"
-    },
-    {
-      "data": "20/10/2026",
-      "count": 245,
-      "filename": "TGs_ESTRELA_20261020.txt"
     }
   ],
   "antenas": [
@@ -166,7 +166,7 @@
       "nome": "antena1",
       "ip": "172.54.101.102",
       "status": "online",
-      "ultimo_ping": "19/11/2026 23:44:39",
+      "ultimo_ping": "20/11/2026 00:14:42",
       "ultima_alteracao": "19/11/2026 20:44:43",
       "detalhes": "HTTP 200 OK"
     },
@@ -174,7 +174,7 @@
       "nome": "antena2",
       "ip": "172.54.101.103",
       "status": "online",
-      "ultimo_ping": "19/11/2026 23:44:39",
+      "ultimo_ping": "20/11/2026 00:14:42",
       "ultima_alteracao": "19/11/2026 20:44:42",
       "detalhes": "HTTP 200 OK"
     },
@@ -182,7 +182,7 @@
       "nome": "antena3",
       "ip": "172.54.101.104",
       "status": "online",
-      "ultimo_ping": "19/11/2026 23:44:41",
+      "ultimo_ping": "20/11/2026 00:14:39",
       "ultima_alteracao": "19/11/2026 20:44:44",
       "detalhes": "HTTP 200 OK"
     },
@@ -190,7 +190,7 @@
       "nome": "antena5",
       "ip": "172.54.101.106",
       "status": "online",
-      "ultimo_ping": "19/11/2026 23:44:40",
+      "ultimo_ping": "20/11/2026 00:14:38",
       "ultima_alteracao": "19/11/2026 20:44:43",
       "detalhes": "HTTP 200 OK"
     },
@@ -198,7 +198,7 @@
       "nome": "antena6",
       "ip": "172.54.101.107",
       "status": "online",
-      "ultimo_ping": "19/11/2026 23:44:41",
+      "ultimo_ping": "20/11/2026 00:14:40",
       "ultima_alteracao": "19/11/2026 20:44:42",
       "detalhes": "HTTP 200 OK"
     },
@@ -206,7 +206,7 @@
       "nome": "antena7",
       "ip": "172.54.101.108",
       "status": "online",
-      "ultimo_ping": "19/11/2026 23:44:38",
+      "ultimo_ping": "20/11/2026 00:14:42",
       "ultima_alteracao": "19/11/2026 20:44:42",
       "detalhes": "HTTP 200 OK"
     }
