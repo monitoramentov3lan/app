@@ -1,8 +1,8 @@
 {
   "garagem": "ESTRELA",
-  "online": 144,
+  "online": 146,
   "offline": 3,
-  "last_update": "2026-11-20T16:44:42.853515-03:00",
+  "last_update": "2026-11-20T17:15:32.586901-03:00",
   "panel_url": "https://monitoramentov3lan.github.io/estrela/COMUNICAÇÕES_ESTRELA.html",
   "tgs_history": [
     {
@@ -166,7 +166,7 @@
       "nome": "antena1",
       "ip": "172.54.101.102",
       "status": "online",
-      "ultimo_ping": "20/11/2026 16:44:42",
+      "ultimo_ping": "20/11/2026 17:15:30",
       "ultima_alteracao": "19/11/2026 20:44:43",
       "detalhes": "HTTP 200 OK"
     },
@@ -174,7 +174,7 @@
       "nome": "antena2",
       "ip": "172.54.101.103",
       "status": "online",
-      "ultimo_ping": "20/11/2026 16:44:42",
+      "ultimo_ping": "20/11/2026 17:15:32",
       "ultima_alteracao": "19/11/2026 20:44:42",
       "detalhes": "HTTP 200 OK"
     },
@@ -182,7 +182,7 @@
       "nome": "antena3",
       "ip": "172.54.101.104",
       "status": "online",
-      "ultimo_ping": "20/11/2026 16:44:38",
+      "ultimo_ping": "20/11/2026 17:15:32",
       "ultima_alteracao": "19/11/2026 20:44:44",
       "detalhes": "HTTP 200 OK"
     },
@@ -190,7 +190,7 @@
       "nome": "antena5",
       "ip": "172.54.101.106",
       "status": "online",
-      "ultimo_ping": "20/11/2026 16:44:38",
+      "ultimo_ping": "20/11/2026 17:15:32",
       "ultima_alteracao": "19/11/2026 20:44:43",
       "detalhes": "HTTP 200 OK"
     },
@@ -198,7 +198,7 @@
       "nome": "antena6",
       "ip": "172.54.101.107",
       "status": "online",
-      "ultimo_ping": "20/11/2026 16:44:38",
+      "ultimo_ping": "20/11/2026 17:15:28",
       "ultima_alteracao": "19/11/2026 20:44:42",
       "detalhes": "HTTP 200 OK"
     },
@@ -206,7 +206,7 @@
       "nome": "antena7",
       "ip": "172.54.101.108",
       "status": "online",
-      "ultimo_ping": "20/11/2026 16:44:38",
+      "ultimo_ping": "20/11/2026 17:15:32",
       "ultima_alteracao": "19/11/2026 20:44:42",
       "detalhes": "HTTP 200 OK"
     }
