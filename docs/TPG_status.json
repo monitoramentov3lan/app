@@ -1,13 +1,18 @@
 {
   "garagem": "TPG",
-  "online": 1,
-  "offline": 1,
-  "last_update": "2026-11-21T23:42:34.764009-03:00",
+  "online": 0,
+  "offline": 2,
+  "last_update": "2026-11-22T00:12:34.758498-03:00",
   "panel_url": "https://monitoramentov3lan.github.io/tpg/COMUNICAÇÕES_TPG.html",
   "tgs_history": [
     {
+      "data": "22/11/2026",
+      "count": 0,
+      "filename": "N/A"
+    },
+    {
       "data": "21/11/2026",
-      "count": 1,
+      "count": 2,
       "filename": "TGs_TPG_20261121.txt"
     },
     {
@@ -154,11 +159,6 @@
       "data": "23/10/2026",
       "count": 4,
       "filename": "TGs_TPG_20261023.txt"
-    },
-    {
-      "data": "22/10/2026",
-      "count": 4,
-      "filename": "TGs_TPG_20261022.txt"
     }
   ],
   "antenas": [
@@ -166,7 +166,7 @@
       "nome": "antena1",
       "ip": "172.54.103.101",
       "status": "online",
-      "ultimo_ping": "21/11/2026 23:42:30",
+      "ultimo_ping": "22/11/2026 00:12:32",
       "ultima_alteracao": "20/11/2026 21:07:57",
       "detalhes": "HTTP 200 OK"
     }
