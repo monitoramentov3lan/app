@@ -1,8 +1,8 @@
 {
   "garagem": "TCM_FORQUILHA",
-  "online": 100,
-  "offline": 27,
-  "last_update": "2026-11-22T06:37:56.212866-03:00",
+  "online": 101,
+  "offline": 26,
+  "last_update": "2026-11-22T07:07:56.201307-03:00",
   "panel_url": "https://monitoramentov3lan.github.io/tcm-forquilha/COMUNICAÇÕES_TCM_FORQUILHA.html",
   "tgs_history": [
     {
@@ -166,7 +166,7 @@
       "nome": "antena1",
       "ip": "172.54.140.241",
       "status": "online",
-      "ultimo_ping": "22/11/2026 06:37:56",
+      "ultimo_ping": "22/11/2026 07:07:53",
       "ultima_alteracao": "16/11/2026 16:37:56",
       "detalhes": "HTTP 200 OK"
     },
@@ -174,7 +174,7 @@
       "nome": "antena2",
       "ip": "172.54.140.242",
       "status": "online",
-      "ultimo_ping": "22/11/2026 06:37:54",
+      "ultimo_ping": "22/11/2026 07:07:51",
       "ultima_alteracao": "16/11/2026 16:37:56",
       "detalhes": "HTTP 200 OK"
     },
@@ -182,7 +182,7 @@
       "nome": "antena3",
       "ip": "172.54.140.243",
       "status": "online",
-      "ultimo_ping": "22/11/2026 06:37:51",
+      "ultimo_ping": "22/11/2026 07:07:53",
       "ultima_alteracao": "16/11/2026 16:37:56",
       "detalhes": "HTTP 200 OK"
     },
@@ -190,7 +190,7 @@
       "nome": "antena4",
       "ip": "172.54.140.244",
       "status": "online",
-      "ultimo_ping": "22/11/2026 06:37:53",
+      "ultimo_ping": "22/11/2026 07:07:55",
       "ultima_alteracao": "16/11/2026 16:37:56",
       "detalhes": "HTTP 200 OK"
     },
@@ -198,7 +198,7 @@
       "nome": "antena5",
       "ip": "172.54.140.245",
       "status": "online",
-      "ultimo_ping": "22/11/2026 06:37:52",
+      "ultimo_ping": "22/11/2026 07:07:54",
       "ultima_alteracao": "16/11/2026 16:37:56",
       "detalhes": "HTTP 200 OK"
     },
@@ -206,7 +206,7 @@
       "nome": "antena6",
       "ip": "172.54.140.246",
       "status": "online",
-      "ultimo_ping": "22/11/2026 06:37:54",
+      "ultimo_ping": "22/11/2026 07:07:51",
       "ultima_alteracao": "16/11/2026 16:37:56",
       "detalhes": "HTTP 200 OK"
     },
@@ -214,7 +214,7 @@
       "nome": "antena7",
       "ip": "172.54.140.247",
       "status": "online",
-      "ultimo_ping": "22/11/2026 06:37:53",
+      "ultimo_ping": "22/11/2026 07:07:55",
       "ultima_alteracao": "16/11/2026 16:37:56",
       "detalhes": "HTTP 200 OK"
     }
