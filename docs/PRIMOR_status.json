@@ -1,10 +1,15 @@
 {
   "garagem": "PRIMOR",
-  "online": 153,
-  "offline": 4,
-  "last_update": "2026-11-22T23:50:01.010489-03:00",
+  "online": 93,
+  "offline": 65,
+  "last_update": "2026-11-23T00:19:05.415545-03:00",
   "panel_url": "https://monitoramentov3lan.github.io/primor/COMUNICAÇÕES_PRIMOR.html",
   "tgs_history": [
+    {
+      "data": "23/11/2026",
+      "count": 2,
+      "filename": "TGs_PRIMOR_20261123.txt"
+    },
     {
       "data": "22/11/2026",
       "count": 90,
@@ -154,11 +159,6 @@
       "data": "24/10/2026",
       "count": 152,
       "filename": "TGs_PRIMOR_20261024.txt"
-    },
-    {
-      "data": "23/10/2026",
-      "count": 233,
-      "filename": "TGs_PRIMOR_20261023.txt"
     }
   ],
   "antenas": [
@@ -166,7 +166,7 @@
       "nome": "antena1",
       "ip": "172.54.140.235",
       "status": "online",
-      "ultimo_ping": "22/11/2026 23:49:58",
+      "ultimo_ping": "23/11/2026 00:19:02",
       "ultima_alteracao": "18/11/2026 05:25:18",
       "detalhes": "HTTP 200 OK"
     },
@@ -174,7 +174,7 @@
       "nome": "antena2",
       "ip": "172.54.140.236",
       "status": "online",
-      "ultimo_ping": "22/11/2026 23:49:56",
+      "ultimo_ping": "23/11/2026 00:19:04",
       "ultima_alteracao": "21/11/2026 18:01:44",
       "detalhes": "HTTP 200 OK"
     },
@@ -182,7 +182,7 @@
       "nome": "antena3",
       "ip": "172.54.140.237",
       "status": "online",
-      "ultimo_ping": "22/11/2026 23:49:56",
+      "ultimo_ping": "23/11/2026 00:19:04",
       "ultima_alteracao": "18/11/2026 14:51:03",
       "detalhes": "HTTP 200 OK"
     },
@@ -190,7 +190,7 @@
       "nome": "antena4",
       "ip": "172.54.140.238",
       "status": "online",
-      "ultimo_ping": "22/11/2026 23:49:57",
+      "ultimo_ping": "23/11/2026 00:19:01",
       "ultima_alteracao": "21/11/2026 18:01:41",
       "detalhes": "HTTP 200 OK"
     },
@@ -198,7 +198,7 @@
       "nome": "antena5",
       "ip": "172.54.140.239",
       "status": "online",
-      "ultimo_ping": "22/11/2026 23:49:59",
+      "ultimo_ping": "23/11/2026 00:19:03",
       "ultima_alteracao": "18/11/2026 05:24:22",
       "detalhes": "HTTP 200 OK"
     },
@@ -206,7 +206,7 @@
       "nome": "antena6",
       "ip": "172.54.140.240",
       "status": "online",
-      "ultimo_ping": "22/11/2026 23:49:58",
+      "ultimo_ping": "23/11/2026 00:19:01",
       "ultima_alteracao": "18/11/2026 05:24:20",
       "detalhes": "HTTP 200 OK"
     }
