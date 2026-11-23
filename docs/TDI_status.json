@@ -2,7 +2,7 @@
   "garagem": "TDI",
   "online": 1,
   "offline": 0,
-  "last_update": "2026-11-22T20:51:23.901966-03:00",
+  "last_update": "2026-11-22T21:21:23.897859-03:00",
   "panel_url": "https://monitoramentov3lan.github.io/tdi/COMUNICAÇÕES_TDI.html",
   "tgs_history": [
     {
@@ -166,7 +166,7 @@
       "nome": "antena1",
       "ip": "172.54.104.101",
       "status": "online",
-      "ultimo_ping": "22/11/2026 20:51:20",
+      "ultimo_ping": "22/11/2026 21:21:21",
       "ultima_alteracao": "22/11/2026 11:21:39",
       "detalhes": "HTTP 200 OK"
     }
