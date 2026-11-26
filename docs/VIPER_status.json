@@ -1,8 +1,8 @@
 {
   "garagem": "VIPER",
-  "online": 121,
+  "online": 123,
   "offline": 4,
-  "last_update": "2026-11-26T03:43:16.920462-03:00",
+  "last_update": "2026-11-26T04:13:16.913636-03:00",
   "panel_url": "https://monitoramentov3lan.github.io/viper/COMUNICAÇÕES_VIPER.html",
   "tgs_history": [
     {
@@ -166,7 +166,7 @@
       "nome": "antena1",
       "ip": "172.54.12.101",
       "status": "online",
-      "ultimo_ping": "26/11/2026 03:43:12",
+      "ultimo_ping": "26/11/2026 04:13:15",
       "ultima_alteracao": "23/11/2026 08:13:16",
       "detalhes": "HTTP 200 OK"
     },
@@ -174,7 +174,7 @@
       "nome": "antena2",
       "ip": "172.54.12.102",
       "status": "online",
-      "ultimo_ping": "26/11/2026 03:43:13",
+      "ultimo_ping": "26/11/2026 04:13:16",
       "ultima_alteracao": "23/11/2026 08:13:16",
       "detalhes": "HTTP 200 OK"
     },
@@ -182,7 +182,7 @@
       "nome": "antena3",
       "ip": "172.54.12.103",
       "status": "online",
-      "ultimo_ping": "26/11/2026 03:43:12",
+      "ultimo_ping": "26/11/2026 04:13:14",
       "ultima_alteracao": "23/11/2026 08:13:16",
       "detalhes": "HTTP 200 OK"
     }
