@@ -2,12 +2,12 @@
   "garagem": "PREMIUM",
   "online": 62,
   "offline": 1,
-  "last_update": "2026-11-25T21:56:40.558685-03:00",
+  "last_update": "2026-11-25T22:26:40.565081-03:00",
   "panel_url": "https://monitoramentov3lan.github.io/premium/COMUNICAÇÕES_PREMIUM.html",
   "tgs_history": [
     {
       "data": "25/11/2026",
-      "count": 59,
+      "count": 66,
       "filename": "TGs_PREMIUM_20261125.txt"
     },
     {
@@ -166,7 +166,7 @@
       "nome": "antena1",
       "ip": "172.54.81.101",
       "status": "online",
-      "ultimo_ping": "25/11/2026 21:56:40",
+      "ultimo_ping": "25/11/2026 22:26:37",
       "ultima_alteracao": "25/11/2026 21:39:21",
       "detalhes": "HTTP 200 OK"
     }
