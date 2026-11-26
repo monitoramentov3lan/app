@@ -1,13 +1,13 @@
 {
   "garagem": "ESTRELA",
-  "online": 146,
+  "online": 147,
   "offline": 1,
-  "last_update": "2026-11-25T21:45:07.240386-03:00",
+  "last_update": "2026-11-25T22:14:55.125491-03:00",
   "panel_url": "https://monitoramentov3lan.github.io/estrela/COMUNICAÇÕES_ESTRELA.html",
   "tgs_history": [
     {
       "data": "25/11/2026",
-      "count": 167,
+      "count": 187,
       "filename": "TGs_ESTRELA_20261125.txt"
     },
     {
@@ -166,7 +166,7 @@
       "nome": "antena1",
       "ip": "172.54.101.102",
       "status": "online",
-      "ultimo_ping": "25/11/2026 21:45:05",
+      "ultimo_ping": "25/11/2026 22:14:52",
       "ultima_alteracao": "19/11/2026 20:44:43",
       "detalhes": "HTTP 200 OK"
     },
@@ -174,7 +174,7 @@
       "nome": "antena2",
       "ip": "172.54.101.103",
       "status": "online",
-      "ultimo_ping": "25/11/2026 21:45:05",
+      "ultimo_ping": "25/11/2026 22:14:54",
       "ultima_alteracao": "19/11/2026 20:44:42",
       "detalhes": "HTTP 200 OK"
     },
@@ -182,7 +182,7 @@
       "nome": "antena3",
       "ip": "172.54.101.104",
       "status": "online",
-      "ultimo_ping": "25/11/2026 21:45:07",
+      "ultimo_ping": "25/11/2026 22:14:38",
       "ultima_alteracao": "19/11/2026 20:44:44",
       "detalhes": "HTTP 200 OK"
     },
@@ -190,7 +190,7 @@
       "nome": "antena5",
       "ip": "172.54.101.106",
       "status": "online",
-      "ultimo_ping": "25/11/2026 21:45:03",
+      "ultimo_ping": "25/11/2026 22:14:40",
       "ultima_alteracao": "19/11/2026 20:44:43",
       "detalhes": "HTTP 200 OK"
     },
@@ -198,7 +198,7 @@
       "nome": "antena6",
       "ip": "172.54.101.107",
       "status": "online",
-      "ultimo_ping": "25/11/2026 21:45:04",
+      "ultimo_ping": "25/11/2026 22:14:53",
       "ultima_alteracao": "24/11/2026 15:54:11",
       "detalhes": "HTTP 200 OK"
     },
@@ -206,7 +206,7 @@
       "nome": "antena7",
       "ip": "172.54.101.108",
       "status": "online",
-      "ultimo_ping": "25/11/2026 21:45:06",
+      "ultimo_ping": "25/11/2026 22:14:38",
       "ultima_alteracao": "24/11/2026 15:54:29",
       "detalhes": "HTTP 200 OK"
     }
