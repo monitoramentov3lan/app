@@ -1,8 +1,8 @@
 {
   "garagem": "PRIMOR",
-  "online": 153,
+  "online": 154,
   "offline": 10,
-  "last_update": "2026-11-27T04:11:59.107318-03:00",
+  "last_update": "2026-11-27T04:41:59.103270-03:00",
   "panel_url": "https://monitoramentov3lan.github.io/primor/COMUNICAÇÕES_PRIMOR.html",
   "tgs_history": [
     {
@@ -166,7 +166,7 @@
       "nome": "antena1",
       "ip": "172.54.140.235",
       "status": "online",
-      "ultimo_ping": "27/11/2026 04:11:57",
+      "ultimo_ping": "27/11/2026 04:41:54",
       "ultima_alteracao": "26/11/2026 08:11:59",
       "detalhes": "HTTP 200 OK"
     },
@@ -174,7 +174,7 @@
       "nome": "antena2",
       "ip": "172.54.140.236",
       "status": "online",
-      "ultimo_ping": "27/11/2026 04:11:55",
+      "ultimo_ping": "27/11/2026 04:41:55",
       "ultima_alteracao": "26/11/2026 17:48:10",
       "detalhes": "HTTP 200 OK"
     },
@@ -182,7 +182,7 @@
       "nome": "antena3",
       "ip": "172.54.140.237",
       "status": "online",
-      "ultimo_ping": "27/11/2026 04:11:56",
+      "ultimo_ping": "27/11/2026 04:41:56",
       "ultima_alteracao": "26/11/2026 08:11:59",
       "detalhes": "HTTP 200 OK"
     },
@@ -190,7 +190,7 @@
       "nome": "antena4",
       "ip": "172.54.140.238",
       "status": "online",
-      "ultimo_ping": "27/11/2026 04:11:56",
+      "ultimo_ping": "27/11/2026 04:41:56",
       "ultima_alteracao": "26/11/2026 17:48:10",
       "detalhes": "HTTP 200 OK"
     },
@@ -198,7 +198,7 @@
       "nome": "antena5",
       "ip": "172.54.140.239",
       "status": "online",
-      "ultimo_ping": "27/11/2026 04:11:56",
+      "ultimo_ping": "27/11/2026 04:41:55",
       "ultima_alteracao": "26/11/2026 08:11:59",
       "detalhes": "HTTP 200 OK"
     },
@@ -206,7 +206,7 @@
       "nome": "antena6",
       "ip": "172.54.140.240",
       "status": "online",
-      "ultimo_ping": "27/11/2026 04:11:54",
+      "ultimo_ping": "27/11/2026 04:41:59",
       "ultima_alteracao": "26/11/2026 08:11:59",
       "detalhes": "HTTP 200 OK"
     }
