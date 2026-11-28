@@ -1,8 +1,8 @@
 {
   "garagem": "INOVARE",
-  "online": 41,
-  "offline": 4,
-  "last_update": "2026-11-28T01:06:34.731204-03:00",
+  "online": 42,
+  "offline": 3,
+  "last_update": "2026-11-28T01:35:45.397569-03:00",
   "panel_url": "https://monitoramentov3lan.github.io/inovare/COMUNICAÇÕES_INOVARE.html",
   "tgs_history": [
     {
@@ -166,7 +166,7 @@
       "nome": "antena1",
       "ip": "172.54.11.101",
       "status": "online",
-      "ultimo_ping": "28/11/2026 01:06:30",
+      "ultimo_ping": "28/11/2026 01:35:41",
       "ultima_alteracao": "10/11/2026 14:35:45",
       "detalhes": "HTTP 200 OK"
     },
@@ -174,7 +174,7 @@
       "nome": "antena2",
       "ip": "172.54.11.102",
       "status": "online",
-      "ultimo_ping": "28/11/2026 01:06:34",
+      "ultimo_ping": "28/11/2026 01:35:45",
       "ultima_alteracao": "10/11/2026 14:35:45",
       "detalhes": "HTTP 200 OK"
     }
